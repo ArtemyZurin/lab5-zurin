@@ -1,0 +1,751 @@
+{
+  "method": "lda",
+  "k": 10,
+  "coherence_cv": 0.5011981949240812,
+  "fit_seconds": 2.583736200351268,
+  "warnings": [],
+  "unassigned_documents": 0,
+  "distribution_kind": "posterior probabilities",
+  "topics": [
+    {
+      "topic": 1,
+      "label": "people / game / use",
+      "coherence_cv": 0.6351347482391067,
+      "words": [
+        {
+          "word": "people",
+          "weight": 211.9638290355365,
+          "normalized_weight": 0.021325713910381457
+        },
+        {
+          "word": "game",
+          "weight": 210.59863140130534,
+          "normalized_weight": 0.02118836116339998
+        },
+        {
+          "word": "use",
+          "weight": 165.03321569725017,
+          "normalized_weight": 0.01660401758018715
+        },
+        {
+          "word": "technology",
+          "weight": 158.13795022515427,
+          "normalized_weight": 0.01591028384522336
+        },
+        {
+          "word": "mobile",
+          "weight": 143.5645877713371,
+          "normalized_weight": 0.014444055574973087
+        },
+        {
+          "word": "service",
+          "weight": 117.3567239209508,
+          "normalized_weight": 0.011807278303970568
+        },
+        {
+          "word": "phone",
+          "weight": 113.97210940666236,
+          "normalized_weight": 0.011466751709612154
+        },
+        {
+          "word": "digital",
+          "weight": 107.3218600028531,
+          "normalized_weight": 0.010797669079506694
+        },
+        {
+          "word": "network",
+          "weight": 93.7555968777922,
+          "normalized_weight": 0.009432765229852693
+        },
+        {
+          "word": "consumer",
+          "weight": 92.41269414293116,
+          "normalized_weight": 0.009297655576175347
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/tech/225.txt",
+          "title": "Lifestyle 'governs mobile choice'",
+          "weight": 0.996086042889076
+        },
+        {
+          "id": "bbc:bbc/tech/134.txt",
+          "title": "Gates opens biggest gadget fair",
+          "weight": 0.9960689680882834
+        },
+        {
+          "id": "bbc:bbc/tech/109.txt",
+          "title": "Home phones face unclear future",
+          "weight": 0.9941923178972021
+        }
+      ]
+    },
+    {
+      "topic": 2,
+      "label": "make / mail / government",
+      "coherence_cv": 0.31044538310202124,
+      "words": [
+        {
+          "word": "make",
+          "weight": 71.65941075619318,
+          "normalized_weight": 0.008376757642790052
+        },
+        {
+          "word": "mail",
+          "weight": 68.91342757178948,
+          "normalized_weight": 0.00805576092534302
+        },
+        {
+          "word": "government",
+          "weight": 66.09997732663331,
+          "normalized_weight": 0.007726877522660495
+        },
+        {
+          "word": "court",
+          "weight": 65.80459435940524,
+          "normalized_weight": 0.007692348191451002
+        },
+        {
+          "word": "year",
+          "weight": 65.60196448545372,
+          "normalized_weight": 0.007668661402411444
+        },
+        {
+          "word": "say",
+          "weight": 64.67593584170439,
+          "normalized_weight": 0.007560411593529233
+        },
+        {
+          "word": "firm",
+          "weight": 61.82033564475459,
+          "normalized_weight": 0.007226600995282238
+        },
+        {
+          "word": "decision",
+          "weight": 61.498132762896596,
+          "normalized_weight": 0.007188936501189259
+        },
+        {
+          "word": "two",
+          "weight": 60.412642674133785,
+          "normalized_weight": 0.007062046155577105
+        },
+        {
+          "word": "tell",
+          "weight": 58.66168130396074,
+          "normalized_weight": 0.006857364329630615
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/business/445.txt",
+          "title": "Executive trio leave Aer Lingus",
+          "weight": 0.9930218091546618
+        },
+        {
+          "id": "bbc:bbc/tech/273.txt",
+          "title": "US state acts to stop 'spammers'",
+          "weight": 0.9477656438807056
+        },
+        {
+          "id": "bbc:bbc/politics/174.txt",
+          "title": "Escaped prisoner report ordered",
+          "weight": 0.9083466766796275
+        }
+      ]
+    },
+    {
+      "topic": 3,
+      "label": "company / business / year",
+      "coherence_cv": 0.4862850553439782,
+      "words": [
+        {
+          "word": "company",
+          "weight": 130.550941683168,
+          "normalized_weight": 0.023720419714171322
+        },
+        {
+          "word": "business",
+          "weight": 79.78447549930466,
+          "normalized_weight": 0.014496419720291677
+        },
+        {
+          "word": "year",
+          "weight": 78.64352961668885,
+          "normalized_weight": 0.01428911585210141
+        },
+        {
+          "word": "new",
+          "weight": 77.62388703765494,
+          "normalized_weight": 0.014103852156403052
+        },
+        {
+          "word": "share",
+          "weight": 77.043610680581,
+          "normalized_weight": 0.013998418993206046
+        },
+        {
+          "word": "government",
+          "weight": 76.74949995078704,
+          "normalized_weight": 0.013944980619930387
+        },
+        {
+          "word": "firm",
+          "weight": 70.42433622346722,
+          "normalized_weight": 0.012795731626100858
+        },
+        {
+          "word": "plan",
+          "weight": 53.93021112721224,
+          "normalized_weight": 0.00979883581625885
+        },
+        {
+          "word": "pay",
+          "weight": 44.2905163781244,
+          "normalized_weight": 0.008047353962380058
+        },
+        {
+          "word": "investment",
+          "weight": 44.23300220905882,
+          "normalized_weight": 0.008036903940249553
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/politics/369.txt",
+          "title": "BAA support ahead of court battle",
+          "weight": 0.9924353784136327
+        },
+        {
+          "id": "bbc:bbc/business/265.txt",
+          "title": "Troubled Marsh under SEC scrutiny",
+          "weight": 0.9904227255362014
+        },
+        {
+          "id": "bbc:bbc/business/422.txt",
+          "title": "News Corp makes $5.4bn Fox offer",
+          "weight": 0.9895322461528722
+        }
+      ]
+    },
+    {
+      "topic": 4,
+      "label": "tax / search / get",
+      "coherence_cv": 0.4177513532954734,
+      "words": [
+        {
+          "word": "tax",
+          "weight": 281.04691724086507,
+          "normalized_weight": 0.10437363858629965
+        },
+        {
+          "word": "search",
+          "weight": 97.56555121273207,
+          "normalized_weight": 0.036233350932020576
+        },
+        {
+          "word": "get",
+          "weight": 67.75856704106434,
+          "normalized_weight": 0.02516379918662664
+        },
+        {
+          "word": "turbotax",
+          "weight": 64.09999100595027,
+          "normalized_weight": 0.02380509759837108
+        },
+        {
+          "word": "site",
+          "weight": 59.0600792304131,
+          "normalized_weight": 0.021933403237404555
+        },
+        {
+          "word": "software",
+          "weight": 50.00958109655335,
+          "normalized_weight": 0.018572279655181163
+        },
+        {
+          "word": "state",
+          "weight": 48.393129458661484,
+          "normalized_weight": 0.017971970850153552
+        },
+        {
+          "word": "version",
+          "weight": 44.46276924014654,
+          "normalized_weight": 0.016512335565808223
+        },
+        {
+          "word": "use",
+          "weight": 44.19109365410882,
+          "normalized_weight": 0.016411442200002253
+        },
+        {
+          "word": "deluxe",
+          "weight": 38.669602418115666,
+          "normalized_weight": 0.014360901541593016
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00NG7JYYM",
+          "title": "TurboTax Home &amp; Business 2014 Fed + State + Fed Efile Tax Software - Win [Download] OLD VERSION",
+          "weight": 0.9898863981944295
+        },
+        {
+          "id": "amazon:B01617VNYC",
+          "title": "TurboTax Basic 2015 Federal + Fed Efile Tax Preparation Software - PC/MacDisc [Old Version]",
+          "weight": 0.9894098907953266
+        },
+        {
+          "id": "amazon:B00MYXTCIM",
+          "title": "TurboTax Home &amp; Business 2014 Fed + State + Fed Efile Tax Software - Win [Download] OLD VERSION",
+          "weight": 0.9892844271781447
+        }
+      ]
+    },
+    {
+      "topic": 5,
+      "label": "game / year / play",
+      "coherence_cv": 0.4875475777098669,
+      "words": [
+        {
+          "word": "game",
+          "weight": 223.27201055992447,
+          "normalized_weight": 0.018151118918038514
+        },
+        {
+          "word": "year",
+          "weight": 170.65043259536034,
+          "normalized_weight": 0.013873195693831752
+        },
+        {
+          "word": "play",
+          "weight": 160.66432488619066,
+          "normalized_weight": 0.013061365191195455
+        },
+        {
+          "word": "win",
+          "weight": 143.21335124895475,
+          "normalized_weight": 0.011642671030065888
+        },
+        {
+          "word": "player",
+          "weight": 141.9600071877855,
+          "normalized_weight": 0.011540779185035922
+        },
+        {
+          "word": "first",
+          "weight": 129.29983650812036,
+          "normalized_weight": 0.010511558088522392
+        },
+        {
+          "word": "two",
+          "weight": 129.23763474848332,
+          "normalized_weight": 0.010506501334954167
+        },
+        {
+          "word": "back",
+          "weight": 128.57973602270008,
+          "normalized_weight": 0.010453016807369316
+        },
+        {
+          "word": "take",
+          "weight": 125.85968567415676,
+          "normalized_weight": 0.010231887624111431
+        },
+        {
+          "word": "england",
+          "weight": 121.31514291274127,
+          "normalized_weight": 0.00986243452569709
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/sport/491.txt",
+          "title": "Nadal puts Spain 2-0 up",
+          "weight": 0.998431822853788
+        },
+        {
+          "id": "bbc:bbc/sport/069.txt",
+          "title": "Holmes back on form in Birmingham",
+          "weight": 0.9968960488453452
+        },
+        {
+          "id": "bbc:bbc/sport/476.txt",
+          "title": "Henman to face Saulnier test",
+          "weight": 0.9967028836824479
+        }
+      ]
+    },
+    {
+      "topic": 6,
+      "label": "year / rise / rate",
+      "coherence_cv": 0.6249419183904386,
+      "words": [
+        {
+          "word": "year",
+          "weight": 184.26134190305322,
+          "normalized_weight": 0.018033099969126578
+        },
+        {
+          "word": "rise",
+          "weight": 130.0628622996938,
+          "normalized_weight": 0.012728858771446179
+        },
+        {
+          "word": "rate",
+          "weight": 112.40473894757146,
+          "normalized_weight": 0.011000711671315274
+        },
+        {
+          "word": "increase",
+          "weight": 104.06507622838379,
+          "normalized_weight": 0.010184534116269382
+        },
+        {
+          "word": "government",
+          "weight": 103.88453514355805,
+          "normalized_weight": 0.010166865106603156
+        },
+        {
+          "word": "price",
+          "weight": 103.5282810509303,
+          "normalized_weight": 0.010131999596559563
+        },
+        {
+          "word": "economy",
+          "weight": 103.09994526309856,
+          "normalized_weight": 0.010090079669120912
+        },
+        {
+          "word": "market",
+          "weight": 99.4586395073087,
+          "normalized_weight": 0.009733716093157903
+        },
+        {
+          "word": "country",
+          "weight": 91.71321808132464,
+          "normalized_weight": 0.008975695135342058
+        },
+        {
+          "word": "growth",
+          "weight": 90.18350327176411,
+          "normalized_weight": 0.008825986575748629
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/business/290.txt",
+          "title": "Bank holds interest rate at 4.75%",
+          "weight": 0.9954765631433113
+        },
+        {
+          "id": "bbc:bbc/business/273.txt",
+          "title": "Markets fall on weak dollar fears",
+          "weight": 0.9949139162701357
+        },
+        {
+          "id": "bbc:bbc/business/163.txt",
+          "title": "US data sparks inflation worries",
+          "weight": 0.9942664649626556
+        }
+      ]
+    },
+    {
+      "topic": 7,
+      "label": "software / security / use",
+      "coherence_cv": 0.7217948304872643,
+      "words": [
+        {
+          "word": "software",
+          "weight": 229.02322111053982,
+          "normalized_weight": 0.019692815871716406
+        },
+        {
+          "word": "security",
+          "weight": 198.09557878867392,
+          "normalized_weight": 0.017033468218506844
+        },
+        {
+          "word": "use",
+          "weight": 197.3133866999293,
+          "normalized_weight": 0.01696621056356134
+        },
+        {
+          "word": "version",
+          "weight": 156.5466863544342,
+          "normalized_weight": 0.013460840585318871
+        },
+        {
+          "word": "window",
+          "weight": 149.99674065025127,
+          "normalized_weight": 0.01289763623382668
+        },
+        {
+          "word": "system",
+          "weight": 149.92421639947307,
+          "normalized_weight": 0.012891400155625161
+        },
+        {
+          "word": "norton",
+          "weight": 138.09999263411302,
+          "normalized_weight": 0.01187468115085306
+        },
+        {
+          "word": "device",
+          "weight": 133.56482501988904,
+          "normalized_weight": 0.01148471972973071
+        },
+        {
+          "word": "work",
+          "weight": 133.54801468120525,
+          "normalized_weight": 0.011483274274100334
+        },
+        {
+          "word": "program",
+          "weight": 129.77578135928076,
+          "normalized_weight": 0.011158914604920947
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B000WF100C",
+          "title": "Genie Backup Manager Professional V8.0",
+          "weight": 0.9898856923234394
+        },
+        {
+          "id": "amazon:B00OVT6VKY",
+          "title": "Excel Budget Software and Checkbook Register Spreadsheet Template - Free Trial Version - Requires Microsoft Excel 2007, Excel 2010, Excel 2013 or higher [Download]",
+          "weight": 0.9894087054567366
+        },
+        {
+          "id": "amazon:B0148BYIPY",
+          "title": "Microsoft Office Home and Student 2016 for Mac | 1 user, Mac Key Card",
+          "weight": 0.9892846818596631
+        }
+      ]
+    },
+    {
+      "topic": 8,
+      "label": "music / sale / number",
+      "coherence_cv": 0.5727465708898276,
+      "words": [
+        {
+          "word": "music",
+          "weight": 147.54990679498763,
+          "normalized_weight": 0.04952944699938601
+        },
+        {
+          "word": "sale",
+          "weight": 77.52325891770697,
+          "normalized_weight": 0.026022952011208474
+        },
+        {
+          "word": "number",
+          "weight": 67.76504425953904,
+          "normalized_weight": 0.022747321506121777
+        },
+        {
+          "word": "chart",
+          "weight": 65.0999711508134,
+          "normalized_weight": 0.021852711674402118
+        },
+        {
+          "word": "band",
+          "weight": 63.91178139341414,
+          "normalized_weight": 0.02145386098792836
+        },
+        {
+          "word": "record",
+          "weight": 61.700057420980094,
+          "normalized_weight": 0.020711431069472694
+        },
+        {
+          "word": "album",
+          "weight": 57.0999833881985,
+          "normalized_weight": 0.01916728151391603
+        },
+        {
+          "word": "year",
+          "weight": 53.42000250051811,
+          "normalized_weight": 0.017931988166097312
+        },
+        {
+          "word": "single",
+          "weight": 50.16742595810921,
+          "normalized_weight": 0.016840165602681364
+        },
+        {
+          "word": "penalty",
+          "weight": 48.283175338792404,
+          "normalized_weight": 0.01620766170477865
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/entertainment/103.txt",
+          "title": "Downloads enter US singles chart",
+          "weight": 0.9945107621030138
+        },
+        {
+          "id": "bbc:bbc/entertainment/248.txt",
+          "title": "Deal to ban 'homophobic' reggae",
+          "weight": 0.7810265037461006
+        },
+        {
+          "id": "bbc:bbc/entertainment/109.txt",
+          "title": "Band Aid retains number one spot",
+          "weight": 0.7691708163809943
+        }
+      ]
+    },
+    {
+      "topic": 9,
+      "label": "video / make / like",
+      "coherence_cv": 0.4103206292698565,
+      "words": [
+        {
+          "word": "video",
+          "weight": 113.02083576998169,
+          "normalized_weight": 0.020874737471879633
+        },
+        {
+          "word": "make",
+          "weight": 95.23898936106605,
+          "normalized_weight": 0.017590463620756794
+        },
+        {
+          "word": "like",
+          "weight": 83.28751514054802,
+          "normalized_weight": 0.015383048633461913
+        },
+        {
+          "word": "new",
+          "weight": 79.93981423642842,
+          "normalized_weight": 0.014764734523220378
+        },
+        {
+          "word": "dvd",
+          "weight": 78.26527162641699,
+          "normalized_weight": 0.0144554496278175
+        },
+        {
+          "word": "movie",
+          "weight": 77.54004630914571,
+          "normalized_weight": 0.014321501864974823
+        },
+        {
+          "word": "film",
+          "weight": 67.72431675547406,
+          "normalized_weight": 0.012508554932385537
+        },
+        {
+          "word": "get",
+          "weight": 66.48279960329789,
+          "normalized_weight": 0.012279249031027156
+        },
+        {
+          "word": "want",
+          "weight": 66.34325065688635,
+          "normalized_weight": 0.012253474601020754
+        },
+        {
+          "word": "time",
+          "weight": 64.4184190004718,
+          "normalized_weight": 0.011897961785782054
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00OW2PHF0",
+          "title": "Pinnacle Studio 18 Ultimate (Old Version)",
+          "weight": 0.8775019709055979
+        },
+        {
+          "id": "bbc:bbc/entertainment/077.txt",
+          "title": "DVD review: Spider-Man 2",
+          "weight": 0.8632714203601191
+        },
+        {
+          "id": "bbc:bbc/sport/098.txt",
+          "title": "Ronaldo considering new contract",
+          "weight": 0.7572729092397901
+        }
+      ]
+    },
+    {
+      "topic": 10,
+      "label": "labour / party / tory",
+      "coherence_cv": 0.34501388251297965,
+      "words": [
+        {
+          "word": "labour",
+          "weight": 210.39971027595382,
+          "normalized_weight": 0.023484951925142765
+        },
+        {
+          "word": "party",
+          "weight": 160.60304046258568,
+          "normalized_weight": 0.01792661539005289
+        },
+        {
+          "word": "tory",
+          "weight": 159.09984600025325,
+          "normalized_weight": 0.01775882785063225
+        },
+        {
+          "word": "film",
+          "weight": 157.48172269337192,
+          "normalized_weight": 0.01757821187915007
+        },
+        {
+          "word": "election",
+          "weight": 144.4215162088874,
+          "normalized_weight": 0.016120423172985624
+        },
+        {
+          "word": "blair",
+          "weight": 142.06698528507843,
+          "normalized_weight": 0.015857608906371896
+        },
+        {
+          "word": "say",
+          "weight": 131.72921321699738,
+          "normalized_weight": 0.01470370009293512
+        },
+        {
+          "word": "best",
+          "weight": 119.88080897550044,
+          "normalized_weight": 0.013381173537949579
+        },
+        {
+          "word": "people",
+          "weight": 115.4903990329224,
+          "normalized_weight": 0.012891113136735716
+        },
+        {
+          "word": "award",
+          "weight": 105.87876582261973,
+          "normalized_weight": 0.011818256412883745
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/entertainment/201.txt",
+          "title": "Triple triumph for Little Britain",
+          "weight": 0.9955658170302362
+        },
+        {
+          "id": "bbc:bbc/entertainment/095.txt",
+          "title": "Aviator wins top Globes accolades",
+          "weight": 0.9951603152704489
+        },
+        {
+          "id": "bbc:bbc/entertainment/086.txt",
+          "title": "Bookmakers back Aviator for Oscar",
+          "weight": 0.990814533867769
+        }
+      ]
+    }
+  ]
+}

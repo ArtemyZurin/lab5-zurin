@@ -1,0 +1,2 @@
+# Preserve bytes: verification checks SHA-256 of code and data.
+* -text

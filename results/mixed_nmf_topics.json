@@ -1,0 +1,751 @@
+{
+  "method": "nmf",
+  "k": 10,
+  "coherence_cv": 0.7056211851902024,
+  "fit_seconds": 0.13421149970963597,
+  "warnings": [],
+  "unassigned_documents": 0,
+  "distribution_kind": "L1-normalized NMF weights; not posterior probabilities",
+  "topics": [
+    {
+      "topic": 1,
+      "label": "firm / company / mobile",
+      "coherence_cv": 0.5519101848922847,
+      "words": [
+        {
+          "word": "firm",
+          "weight": 0.8386292945444618,
+          "normalized_weight": 0.012727473944313977
+        },
+        {
+          "word": "company",
+          "weight": 0.7497910619227707,
+          "normalized_weight": 0.011379218763739037
+        },
+        {
+          "word": "mobile",
+          "weight": 0.6999038873398551,
+          "normalized_weight": 0.010622105079790762
+        },
+        {
+          "word": "phone",
+          "weight": 0.6460742404735089,
+          "normalized_weight": 0.009805158387873455
+        },
+        {
+          "word": "people",
+          "weight": 0.5547000317833665,
+          "normalized_weight": 0.008418415916734511
+        },
+        {
+          "word": "service",
+          "weight": 0.5140921002782577,
+          "normalized_weight": 0.007802128847434719
+        },
+        {
+          "word": "use",
+          "weight": 0.4829216834486314,
+          "normalized_weight": 0.007329070404791154
+        },
+        {
+          "word": "business",
+          "weight": 0.4205421348008802,
+          "normalized_weight": 0.006382365960721406
+        },
+        {
+          "word": "technology",
+          "weight": 0.3867501556887132,
+          "normalized_weight": 0.0058695213266563295
+        },
+        {
+          "word": "share",
+          "weight": 0.3693045693653267,
+          "normalized_weight": 0.0056047580435005795
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/tech/109.txt",
+          "title": "Home phones face unclear future",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/business/508.txt",
+          "title": "HealthSouth ex-boss goes on trial",
+          "weight": 0.9636169922735701
+        },
+        {
+          "id": "bbc:bbc/tech/069.txt",
+          "title": "'Friends fear' with lost mobiles",
+          "weight": 0.9526881441625895
+        }
+      ]
+    },
+    {
+      "topic": 2,
+      "label": "norton / device / security",
+      "coherence_cv": 0.773163400105164,
+      "words": [
+        {
+          "word": "norton",
+          "weight": 1.7042990998979592,
+          "normalized_weight": 0.09953990796099275
+        },
+        {
+          "word": "device",
+          "weight": 0.5572414374458237,
+          "normalized_weight": 0.03254579046525905
+        },
+        {
+          "word": "security",
+          "weight": 0.44285615739347395,
+          "normalized_weight": 0.025865096771772404
+        },
+        {
+          "word": "backup",
+          "weight": 0.35196762212243377,
+          "normalized_weight": 0.020556734855644857
+        },
+        {
+          "word": "threat",
+          "weight": 0.31063217183954006,
+          "normalized_weight": 0.018142530144199677
+        },
+        {
+          "word": "protect",
+          "weight": 0.30881730898419074,
+          "normalized_weight": 0.01803653273940488
+        },
+        {
+          "word": "tablet",
+          "weight": 0.2974802522966316,
+          "normalized_weight": 0.017374389821359706
+        },
+        {
+          "word": "antivirus",
+          "weight": 0.2803975050856861,
+          "normalized_weight": 0.01637666877274786
+        },
+        {
+          "word": "protection",
+          "weight": 0.26029570337429325,
+          "normalized_weight": 0.01520261928089401
+        },
+        {
+          "word": "subscription",
+          "weight": 0.24909261477897085,
+          "normalized_weight": 0.014548300794353703
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B0144NY8OW",
+          "title": "Norton Security Deluxe &ndash; 3 Devices &ndash; 1 Year Subscription &ndash; Product Key Card - 2019 Ready",
+          "weight": 0.9673687645472715
+        },
+        {
+          "id": "amazon:B009YYZJDQ",
+          "title": "Norton Hotspot Privacy - 5 Users [Old Version]",
+          "weight": 0.9411254770300692
+        },
+        {
+          "id": "amazon:B015724V9Q",
+          "title": "Norton Security Deluxe &ndash; 3 Devices &ndash; 1 Year Subscription &ndash; Instant Download  - 2019 Ready",
+          "weight": 0.9198583860264173
+        }
+      ]
+    },
+    {
+      "topic": 3,
+      "label": "tax / turbotax / federal",
+      "coherence_cv": 0.5404370751215322,
+      "words": [
+        {
+          "word": "tax",
+          "weight": 1.5088514885482431,
+          "normalized_weight": 0.11504838648948595
+        },
+        {
+          "word": "turbotax",
+          "weight": 0.7960787244854355,
+          "normalized_weight": 0.0607001904864602
+        },
+        {
+          "word": "federal",
+          "weight": 0.41383429904588415,
+          "normalized_weight": 0.031554443058571496
+        },
+        {
+          "word": "software",
+          "weight": 0.34539969142981897,
+          "normalized_weight": 0.026336374053089223
+        },
+        {
+          "word": "state",
+          "weight": 0.316619522184085,
+          "normalized_weight": 0.024141915513102734
+        },
+        {
+          "word": "deluxe",
+          "weight": 0.31601497064516965,
+          "normalized_weight": 0.02409581907509685
+        },
+        {
+          "word": "version",
+          "weight": 0.2987446316199548,
+          "normalized_weight": 0.0227789733457076
+        },
+        {
+          "word": "situation",
+          "weight": 0.26723152648498255,
+          "normalized_weight": 0.02037613123263759
+        },
+        {
+          "word": "step",
+          "weight": 0.2524250889500596,
+          "normalized_weight": 0.019247155477913547
+        },
+        {
+          "word": "business",
+          "weight": 0.2221956444654034,
+          "normalized_weight": 0.016942191179684676
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B01617VQJ4",
+          "title": "Intuit TurboTax Premier 2015 Federal + State Taxes + Fed Efile Tax Preparation Software - PC/MacDisc [Old Version]",
+          "weight": 1.0
+        },
+        {
+          "id": "amazon:B01637RISK",
+          "title": "TurboTax Premier 2015 Federal + State Taxes + Fed Efile Tax Preparation Software - PC Download [Old Version]",
+          "weight": 1.0
+        },
+        {
+          "id": "amazon:B01617VO2S",
+          "title": "TurboTax Business 2015 Federal + Fed Efile Tax Preparation Software - PCDisc [Old Version]",
+          "weight": 0.9998032212358161
+        }
+      ]
+    },
+    {
+      "topic": 4,
+      "label": "rate / rise / growth",
+      "coherence_cv": 0.7358890833796071,
+      "words": [
+        {
+          "word": "rate",
+          "weight": 0.6894716357174683,
+          "normalized_weight": 0.020541313748237325
+        },
+        {
+          "word": "rise",
+          "weight": 0.6573579702549253,
+          "normalized_weight": 0.019584556655270643
+        },
+        {
+          "word": "growth",
+          "weight": 0.5290803095203311,
+          "normalized_weight": 0.015762801648195907
+        },
+        {
+          "word": "price",
+          "weight": 0.5179530109461791,
+          "normalized_weight": 0.01543128789281985
+        },
+        {
+          "word": "economy",
+          "weight": 0.510997280593424,
+          "normalized_weight": 0.015224056975516922
+        },
+        {
+          "word": "dollar",
+          "weight": 0.4485817763542312,
+          "normalized_weight": 0.013364522240636148
+        },
+        {
+          "word": "bank",
+          "weight": 0.44305917847481524,
+          "normalized_weight": 0.01319998840070757
+        },
+        {
+          "word": "market",
+          "weight": 0.43103939515239204,
+          "normalized_weight": 0.012841884995692514
+        },
+        {
+          "word": "year",
+          "weight": 0.3672962374293616,
+          "normalized_weight": 0.010942795701425017
+        },
+        {
+          "word": "month",
+          "weight": 0.3407537012941156,
+          "normalized_weight": 0.010152018337740348
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/business/153.txt",
+          "title": "House prices show slight increase",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/business/138.txt",
+          "title": "Winter freeze keeps oil above $50",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/business/170.txt",
+          "title": "House prices suffer festive fall",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "topic": 5,
+      "label": "player / england / play",
+      "coherence_cv": 0.7022144969950762,
+      "words": [
+        {
+          "word": "player",
+          "weight": 0.36462291260400054,
+          "normalized_weight": 0.01025938189752497
+        },
+        {
+          "word": "england",
+          "weight": 0.3635187866205683,
+          "normalized_weight": 0.010228315144077925
+        },
+        {
+          "word": "play",
+          "weight": 0.35853846932688815,
+          "normalized_weight": 0.010088184133873955
+        },
+        {
+          "word": "win",
+          "weight": 0.3392547295532378,
+          "normalized_weight": 0.009545598235095746
+        },
+        {
+          "word": "match",
+          "weight": 0.3130700250960139,
+          "normalized_weight": 0.00880884013895207
+        },
+        {
+          "word": "half",
+          "weight": 0.2902948558060225,
+          "normalized_weight": 0.008168016012299969
+        },
+        {
+          "word": "cup",
+          "weight": 0.2794639263964216,
+          "normalized_weight": 0.00786326653749417
+        },
+        {
+          "word": "second",
+          "weight": 0.27107446322471085,
+          "normalized_weight": 0.007627212511215028
+        },
+        {
+          "word": "final",
+          "weight": 0.2619551484350059,
+          "normalized_weight": 0.0073706226759708005
+        },
+        {
+          "word": "first",
+          "weight": 0.2593392208546626,
+          "normalized_weight": 0.007297018414868983
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/sport/373.txt",
+          "title": "Wilkinson to lead England",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/sport/286.txt",
+          "title": "Yachvili savours France comeback",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/sport/394.txt",
+          "title": "Tindall wants second opinion",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "topic": 6,
+      "label": "labour / election / tory",
+      "coherence_cv": 0.8424760153761204,
+      "words": [
+        {
+          "word": "labour",
+          "weight": 0.6285285965081705,
+          "normalized_weight": 0.025369836241772113
+        },
+        {
+          "word": "election",
+          "weight": 0.4840646222859783,
+          "normalized_weight": 0.019538713538343994
+        },
+        {
+          "word": "tory",
+          "weight": 0.48249670861479177,
+          "normalized_weight": 0.019475426500490466
+        },
+        {
+          "word": "blair",
+          "weight": 0.46113067754480735,
+          "normalized_weight": 0.018613011150745797
+        },
+        {
+          "word": "party",
+          "weight": 0.43845722276067123,
+          "normalized_weight": 0.017697823141633023
+        },
+        {
+          "word": "brown",
+          "weight": 0.3105669562334989,
+          "normalized_weight": 0.01253567914892326
+        },
+        {
+          "word": "government",
+          "weight": 0.27163601578635604,
+          "normalized_weight": 0.010964276368891824
+        },
+        {
+          "word": "say",
+          "weight": 0.2615638613466392,
+          "normalized_weight": 0.010557725401828335
+        },
+        {
+          "word": "howard",
+          "weight": 0.252363166874271,
+          "normalized_weight": 0.01018634991728978
+        },
+        {
+          "word": "minister",
+          "weight": 0.2460316361223614,
+          "normalized_weight": 0.00993078493706759
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/politics/225.txt",
+          "title": "Blair to face MPs amid feud talk",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/politics/415.txt",
+          "title": "Labour MP praises Tory campaign",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/politics/399.txt",
+          "title": "Tories reject rethink on axed MP",
+          "weight": 0.9925357365860165
+        }
+      ]
+    },
+    {
+      "topic": 7,
+      "label": "film / award / best",
+      "coherence_cv": 0.7720862063205733,
+      "words": [
+        {
+          "word": "film",
+          "weight": 0.9178635925887285,
+          "normalized_weight": 0.044649272364371814
+        },
+        {
+          "word": "award",
+          "weight": 0.44482831925469557,
+          "normalized_weight": 0.02163857564692401
+        },
+        {
+          "word": "best",
+          "weight": 0.3806019574798875,
+          "normalized_weight": 0.018514298419881833
+        },
+        {
+          "word": "star",
+          "weight": 0.37569167161365863,
+          "normalized_weight": 0.01827543864507604
+        },
+        {
+          "word": "actor",
+          "weight": 0.30356924694680926,
+          "normalized_weight": 0.014767059177221995
+        },
+        {
+          "word": "oscar",
+          "weight": 0.29144777686823575,
+          "normalized_weight": 0.014177412934180175
+        },
+        {
+          "word": "director",
+          "weight": 0.25027090560460846,
+          "normalized_weight": 0.012174373097969825
+        },
+        {
+          "word": "show",
+          "weight": 0.22869604295613152,
+          "normalized_weight": 0.011124868654832608
+        },
+        {
+          "word": "movie",
+          "weight": 0.22264213802914157,
+          "normalized_weight": 0.010830377782620507
+        },
+        {
+          "word": "prize",
+          "weight": 0.19057075574123622,
+          "normalized_weight": 0.00927027245276873
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/entertainment/095.txt",
+          "title": "Aviator wins top Globes accolades",
+          "weight": 0.996443743611942
+        },
+        {
+          "id": "bbc:bbc/entertainment/324.txt",
+          "title": "Moreno debut makes Oscar mark",
+          "weight": 0.996056179294335
+        },
+        {
+          "id": "bbc:bbc/entertainment/071.txt",
+          "title": "UK debut for Kevin Spacey movie",
+          "weight": 0.9870992402836695
+        }
+      ]
+    },
+    {
+      "topic": 8,
+      "label": "edit / software / photo",
+      "coherence_cv": 0.7158262587268618,
+      "words": [
+        {
+          "word": "edit",
+          "weight": 0.45739364470451654,
+          "normalized_weight": 0.017607119857456586
+        },
+        {
+          "word": "software",
+          "weight": 0.42187957434419565,
+          "normalized_weight": 0.016240025013223955
+        },
+        {
+          "word": "photo",
+          "weight": 0.41516781554754406,
+          "normalized_weight": 0.015981659504749682
+        },
+        {
+          "word": "pro",
+          "weight": 0.41233481382373144,
+          "normalized_weight": 0.015872604642520948
+        },
+        {
+          "word": "tool",
+          "weight": 0.3763241946509889,
+          "normalized_weight": 0.014486395421522032
+        },
+        {
+          "word": "easy",
+          "weight": 0.3717713139225692,
+          "normalized_weight": 0.014311134751396682
+        },
+        {
+          "word": "video",
+          "weight": 0.3464969773129017,
+          "normalized_weight": 0.013338212894794147
+        },
+        {
+          "word": "version",
+          "weight": 0.2872968275731638,
+          "normalized_weight": 0.011059335293159974
+        },
+        {
+          "word": "use",
+          "weight": 0.2739144444759438,
+          "normalized_weight": 0.010544187726290366
+        },
+        {
+          "word": "file",
+          "weight": 0.26398760324585124,
+          "normalized_weight": 0.010162059366249214
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B0123C60D8",
+          "title": "Corel PaintShop Pro X8 Ultimate [Old Version]",
+          "weight": 1.0
+        },
+        {
+          "id": "amazon:B01FFVDY9M",
+          "title": "Corel AfterShot Pro 3 Photo Editing Software for PC/Mac (Key Card)",
+          "weight": 1.0
+        },
+        {
+          "id": "amazon:B00LYYMXB0",
+          "title": "Corel PaintShop Pro X7 Ultimate (Old Version)",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "topic": 9,
+      "label": "game / nintendo / video",
+      "coherence_cv": 0.7673153822813121,
+      "words": [
+        {
+          "word": "game",
+          "weight": 1.08505048455653,
+          "normalized_weight": 0.06967357196653323
+        },
+        {
+          "word": "nintendo",
+          "weight": 0.2648788710283186,
+          "normalized_weight": 0.01700847780419026
+        },
+        {
+          "word": "video",
+          "weight": 0.2528865140083332,
+          "normalized_weight": 0.016238421146207372
+        },
+        {
+          "word": "console",
+          "weight": 0.20970500247264284,
+          "normalized_weight": 0.013465637580440615
+        },
+        {
+          "word": "play",
+          "weight": 0.20324607916065895,
+          "normalized_weight": 0.013050895349909513
+        },
+        {
+          "word": "gamers",
+          "weight": 0.20253200223247422,
+          "normalized_weight": 0.01300504283801846
+        },
+        {
+          "word": "player",
+          "weight": 0.1517868425819231,
+          "normalized_weight": 0.009746580136800534
+        },
+        {
+          "word": "device",
+          "weight": 0.14584730950051839,
+          "normalized_weight": 0.009365189140266402
+        },
+        {
+          "word": "xbox",
+          "weight": 0.14475388743603812,
+          "normalized_weight": 0.009294978010016093
+        },
+        {
+          "word": "technology",
+          "weight": 0.1361463472725429,
+          "normalized_weight": 0.008742268179854393
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/tech/351.txt",
+          "title": "Nintendo DS makes its Euro debut",
+          "weight": 0.964259411579176
+        },
+        {
+          "id": "amazon:B0001XLSG6",
+          "title": "Nancy Drew: The Secret of Shadow Ranch - PC",
+          "weight": 0.9577752555463416
+        },
+        {
+          "id": "bbc:bbc/tech/266.txt",
+          "title": "Blinx sequel purrs nicely",
+          "weight": 0.9455999764114523
+        }
+      ]
+    },
+    {
+      "topic": 10,
+      "label": "security / protection / kaspersky",
+      "coherence_cv": 0.6548937487034927,
+      "words": [
+        {
+          "word": "security",
+          "weight": 0.6681383073593544,
+          "normalized_weight": 0.04319973377536083
+        },
+        {
+          "word": "protection",
+          "weight": 0.5559737456057456,
+          "normalized_weight": 0.03594752393584955
+        },
+        {
+          "word": "kaspersky",
+          "weight": 0.4794115431419961,
+          "normalized_weight": 0.030997251324238386
+        },
+        {
+          "word": "internet",
+          "weight": 0.41776181078422747,
+          "normalized_weight": 0.0270111724003945
+        },
+        {
+          "word": "mcafee",
+          "weight": 0.38986760353338223,
+          "normalized_weight": 0.02520762018098383
+        },
+        {
+          "word": "virus",
+          "weight": 0.38505524701466454,
+          "normalized_weight": 0.024896468256074195
+        },
+        {
+          "word": "online",
+          "weight": 0.3432660239160985,
+          "normalized_weight": 0.022194507759792922
+        },
+        {
+          "word": "window",
+          "weight": 0.3428191702947351,
+          "normalized_weight": 0.022165615601886648
+        },
+        {
+          "word": "device",
+          "weight": 0.2631201551591796,
+          "normalized_weight": 0.017012526491307235
+        },
+        {
+          "word": "safe",
+          "weight": 0.22147207009820966,
+          "normalized_weight": 0.01431969153921729
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00LHTRE1G",
+          "title": "Kaspersky Internet Security 1 -2015",
+          "weight": 1.0
+        },
+        {
+          "id": "amazon:B00LC9USLO",
+          "title": "Kaspersky Anti-Virus 2015 (3 PCs)",
+          "weight": 1.0
+        },
+        {
+          "id": "amazon:B00LC9UU6C",
+          "title": "Kaspersky Internet Security 2015 (3 PCs) [OLD VERSION]",
+          "weight": 0.9959183052412665
+        }
+      ]
+    }
+  ]
+}

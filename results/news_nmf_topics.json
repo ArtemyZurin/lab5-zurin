@@ -1,0 +1,825 @@
+{
+  "method": "nmf",
+  "k": 11,
+  "coherence_cv": 0.7564482602271966,
+  "fit_seconds": 0.045567100401967764,
+  "warnings": [],
+  "unassigned_documents": 0,
+  "distribution_kind": "L1-normalized NMF weights; not posterior probabilities",
+  "topics": [
+    {
+      "topic": 1,
+      "label": "club / player / chelsea",
+      "coherence_cv": 0.7326567321350875,
+      "words": [
+        {
+          "word": "club",
+          "weight": 1.1514767328091249,
+          "normalized_weight": 0.026694938389632827
+        },
+        {
+          "word": "player",
+          "weight": 0.7529138840854286,
+          "normalized_weight": 0.01745496819490784
+        },
+        {
+          "word": "chelsea",
+          "weight": 0.6548785328230161,
+          "normalized_weight": 0.015182193081535289
+        },
+        {
+          "word": "arsenal",
+          "weight": 0.5156351648524968,
+          "normalized_weight": 0.01195408345219886
+        },
+        {
+          "word": "want",
+          "weight": 0.5147577275583496,
+          "normalized_weight": 0.011933741630396797
+        },
+        {
+          "word": "season",
+          "weight": 0.48834509221687517,
+          "normalized_weight": 0.011321411695228774
+        },
+        {
+          "word": "manager",
+          "weight": 0.46511165628184287,
+          "normalized_weight": 0.01078278583923592
+        },
+        {
+          "word": "ferguson",
+          "weight": 0.4534911434071706,
+          "normalized_weight": 0.01051338493307212
+        },
+        {
+          "word": "liverpool",
+          "weight": 0.44896742875927315,
+          "normalized_weight": 0.010408510661298258
+        },
+        {
+          "word": "striker",
+          "weight": 0.42667573928673036,
+          "normalized_weight": 0.009891717520703381
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/sport/254.txt",
+          "title": "Anelka apologises for criticism",
+          "weight": 0.9914977887566614
+        },
+        {
+          "id": "bbc:bbc/sport/393.txt",
+          "title": "Bath faced with Tindall ultimatum",
+          "weight": 0.9538386751845787
+        },
+        {
+          "id": "bbc:bbc/sport/201.txt",
+          "title": "Wenger offers Mutu hope",
+          "weight": 0.9424185995068596
+        }
+      ]
+    },
+    {
+      "topic": 2,
+      "label": "company / firm / share",
+      "coherence_cv": 0.5872993943128701,
+      "words": [
+        {
+          "word": "company",
+          "weight": 0.6204285667808115,
+          "normalized_weight": 0.017055770975230533
+        },
+        {
+          "word": "firm",
+          "weight": 0.5097781818212145,
+          "normalized_weight": 0.014013958065189737
+        },
+        {
+          "word": "share",
+          "weight": 0.47313793995051834,
+          "normalized_weight": 0.013006706614686454
+        },
+        {
+          "word": "business",
+          "weight": 0.3821964814030806,
+          "normalized_weight": 0.010506698117033747
+        },
+        {
+          "word": "executive",
+          "weight": 0.32654682422756276,
+          "normalized_weight": 0.008976872028334245
+        },
+        {
+          "word": "court",
+          "weight": 0.3059053071549185,
+          "normalized_weight": 0.00840943041358231
+        },
+        {
+          "word": "government",
+          "weight": 0.2791358833432465,
+          "normalized_weight": 0.007673530769180442
+        },
+        {
+          "word": "financial",
+          "weight": 0.27113259090529335,
+          "normalized_weight": 0.007453517813333185
+        },
+        {
+          "word": "market",
+          "weight": 0.23778715425340444,
+          "normalized_weight": 0.006536841565566857
+        },
+        {
+          "word": "chief",
+          "weight": 0.23478249430240355,
+          "normalized_weight": 0.006454242544943709
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/business/508.txt",
+          "title": "HealthSouth ex-boss goes on trial",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/business/401.txt",
+          "title": "Marsh executive in guilty plea",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/business/265.txt",
+          "title": "Troubled Marsh under SEC scrutiny",
+          "weight": 0.9456926209669071
+        }
+      ]
+    },
+    {
+      "topic": 3,
+      "label": "labour / tory / election",
+      "coherence_cv": 0.8411579580793805,
+      "words": [
+        {
+          "word": "labour",
+          "weight": 0.7244115892179996,
+          "normalized_weight": 0.024856052337773188
+        },
+        {
+          "word": "tory",
+          "weight": 0.5543090170242807,
+          "normalized_weight": 0.019019483044616075
+        },
+        {
+          "word": "election",
+          "weight": 0.5469189665958288,
+          "normalized_weight": 0.018765915206991234
+        },
+        {
+          "word": "blair",
+          "weight": 0.5143955905545253,
+          "normalized_weight": 0.017649971247623623
+        },
+        {
+          "word": "tax",
+          "weight": 0.5041139076203404,
+          "normalized_weight": 0.017297185548255715
+        },
+        {
+          "word": "party",
+          "weight": 0.4761762071086777,
+          "normalized_weight": 0.016338585552824185
+        },
+        {
+          "word": "brown",
+          "weight": 0.381560771451115,
+          "normalized_weight": 0.013092135253479424
+        },
+        {
+          "word": "howard",
+          "weight": 0.3014691347150753,
+          "normalized_weight": 0.010344026382557103
+        },
+        {
+          "word": "government",
+          "weight": 0.2833635537043058,
+          "normalized_weight": 0.00972278663997473
+        },
+        {
+          "word": "say",
+          "weight": 0.26634450173422386,
+          "normalized_weight": 0.009138827944664106
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/politics/335.txt",
+          "title": "Kennedy begins pre-election tour",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/politics/415.txt",
+          "title": "Labour MP praises Tory campaign",
+          "weight": 0.9970177396339123
+        },
+        {
+          "id": "bbc:bbc/politics/277.txt",
+          "title": "Howard and Blair tax pledge clash",
+          "weight": 0.9953792179981796
+        }
+      ]
+    },
+    {
+      "topic": 4,
+      "label": "film / award / best",
+      "coherence_cv": 0.8584458824253005,
+      "words": [
+        {
+          "word": "film",
+          "weight": 1.0441939386964705,
+          "normalized_weight": 0.053860529059728615
+        },
+        {
+          "word": "award",
+          "weight": 0.5133173495094686,
+          "normalized_weight": 0.026477403282604457
+        },
+        {
+          "word": "best",
+          "weight": 0.43567269837564643,
+          "normalized_weight": 0.02247241739468948
+        },
+        {
+          "word": "star",
+          "weight": 0.36602718289329017,
+          "normalized_weight": 0.018880034627940225
+        },
+        {
+          "word": "actor",
+          "weight": 0.3540000702764609,
+          "normalized_weight": 0.018259664575407616
+        },
+        {
+          "word": "oscar",
+          "weight": 0.3399751994330855,
+          "normalized_weight": 0.017536248229434993
+        },
+        {
+          "word": "director",
+          "weight": 0.275816756597917,
+          "normalized_weight": 0.014226893954630093
+        },
+        {
+          "word": "movie",
+          "weight": 0.2704418782864131,
+          "normalized_weight": 0.013949652554578822
+        },
+        {
+          "word": "actress",
+          "weight": 0.22503415886353162,
+          "normalized_weight": 0.011607478652894233
+        },
+        {
+          "word": "comedy",
+          "weight": 0.21599822457570556,
+          "normalized_weight": 0.01114139645948598
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/entertainment/370.txt",
+          "title": "Sideways dominates Spirit awards",
+          "weight": 0.975172989843037
+        },
+        {
+          "id": "bbc:bbc/entertainment/324.txt",
+          "title": "Moreno debut makes Oscar mark",
+          "weight": 0.9638298997881013
+        },
+        {
+          "id": "bbc:bbc/entertainment/039.txt",
+          "title": "Aviator 'creator' in Oscars snub",
+          "weight": 0.9571463368810067
+        }
+      ]
+    },
+    {
+      "topic": 5,
+      "label": "rate / rise / economy",
+      "coherence_cv": 0.7964184234552145,
+      "words": [
+        {
+          "word": "rate",
+          "weight": 0.5700222129589865,
+          "normalized_weight": 0.02439231001413634
+        },
+        {
+          "word": "rise",
+          "weight": 0.4934989499810586,
+          "normalized_weight": 0.02111773735465789
+        },
+        {
+          "word": "economy",
+          "weight": 0.41171750280113356,
+          "normalized_weight": 0.01761815721959221
+        },
+        {
+          "word": "growth",
+          "weight": 0.3993738042451717,
+          "normalized_weight": 0.01708994741468811
+        },
+        {
+          "word": "price",
+          "weight": 0.3842478080167214,
+          "normalized_weight": 0.016442677920817418
+        },
+        {
+          "word": "dollar",
+          "weight": 0.36540401849411347,
+          "normalized_weight": 0.015636317141488176
+        },
+        {
+          "word": "bank",
+          "weight": 0.33972203936052303,
+          "normalized_weight": 0.014537337518306033
+        },
+        {
+          "word": "deficit",
+          "weight": 0.2781667359457464,
+          "normalized_weight": 0.01190327167004147
+        },
+        {
+          "word": "market",
+          "weight": 0.26378011737297014,
+          "normalized_weight": 0.011287641520365987
+        },
+        {
+          "word": "figure",
+          "weight": 0.2615921889646055,
+          "normalized_weight": 0.011194015996987645
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/business/429.txt",
+          "title": "US trade gap ballooned in October",
+          "weight": 0.9729637394421534
+        },
+        {
+          "id": "bbc:bbc/business/402.txt",
+          "title": "US interest rate rise expected",
+          "weight": 0.9658508030832001
+        },
+        {
+          "id": "bbc:bbc/business/153.txt",
+          "title": "House prices show slight increase",
+          "weight": 0.9652439648141493
+        }
+      ]
+    },
+    {
+      "topic": 6,
+      "label": "game / nintendo / video",
+      "coherence_cv": 0.743424456868412,
+      "words": [
+        {
+          "word": "game",
+          "weight": 1.006510581576776,
+          "normalized_weight": 0.06006441567128304
+        },
+        {
+          "word": "nintendo",
+          "weight": 0.3475366338841959,
+          "normalized_weight": 0.02073955825274804
+        },
+        {
+          "word": "video",
+          "weight": 0.29121794156006486,
+          "normalized_weight": 0.017378690113120168
+        },
+        {
+          "word": "console",
+          "weight": 0.26087790840387604,
+          "normalized_weight": 0.01556812160412449
+        },
+        {
+          "word": "gamers",
+          "weight": 0.23330430732175908,
+          "normalized_weight": 0.013922642393805747
+        },
+        {
+          "word": "device",
+          "weight": 0.19066672387772007,
+          "normalized_weight": 0.011378206615306759
+        },
+        {
+          "word": "play",
+          "weight": 0.18378846706921526,
+          "normalized_weight": 0.010967740512314922
+        },
+        {
+          "word": "technology",
+          "weight": 0.1750424350150781,
+          "normalized_weight": 0.01044581325751041
+        },
+        {
+          "word": "halo",
+          "weight": 0.16676600355050894,
+          "normalized_weight": 0.009951909836262724
+        },
+        {
+          "word": "xbox",
+          "weight": 0.16416419960966058,
+          "normalized_weight": 0.009796644868105627
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/politics/199.txt",
+          "title": "Game warnings 'must be clearer'",
+          "weight": 0.9160429933518708
+        },
+        {
+          "id": "bbc:bbc/tech/351.txt",
+          "title": "Nintendo DS makes its Euro debut",
+          "weight": 0.9119987687351762
+        },
+        {
+          "id": "bbc:bbc/tech/139.txt",
+          "title": "Halo fans' hope for sequel",
+          "weight": 0.9085074429318514
+        }
+      ]
+    },
+    {
+      "topic": 7,
+      "label": "music / album / chart",
+      "coherence_cv": 0.7740107438537043,
+      "words": [
+        {
+          "word": "music",
+          "weight": 0.5412222063804305,
+          "normalized_weight": 0.03054364744295245
+        },
+        {
+          "word": "album",
+          "weight": 0.3986144077450382,
+          "normalized_weight": 0.02249563634365681
+        },
+        {
+          "word": "chart",
+          "weight": 0.38778273750006415,
+          "normalized_weight": 0.021884355591905366
+        },
+        {
+          "word": "band",
+          "weight": 0.35977413434083505,
+          "normalized_weight": 0.020303701860074325
+        },
+        {
+          "word": "single",
+          "weight": 0.2865175505262117,
+          "normalized_weight": 0.016169497382632438
+        },
+        {
+          "word": "sale",
+          "weight": 0.253311306244658,
+          "normalized_weight": 0.014295516961497588
+        },
+        {
+          "word": "number",
+          "weight": 0.2510279807312629,
+          "normalized_weight": 0.014166658447089893
+        },
+        {
+          "word": "song",
+          "weight": 0.22789937579269642,
+          "normalized_weight": 0.012861405361087827
+        },
+        {
+          "word": "record",
+          "weight": 0.2200360152792785,
+          "normalized_weight": 0.012417639919819423
+        },
+        {
+          "word": "singer",
+          "weight": 0.20602452838378976,
+          "normalized_weight": 0.011626907553626492
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/entertainment/136.txt",
+          "title": "'Christmas song formula' unveiled",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/entertainment/103.txt",
+          "title": "Downloads enter US singles chart",
+          "weight": 0.99200410567692
+        },
+        {
+          "id": "bbc:bbc/entertainment/109.txt",
+          "title": "Band Aid retains number one spot",
+          "weight": 0.9633456559591527
+        }
+      ]
+    },
+    {
+      "topic": 8,
+      "label": "search / mail / software",
+      "coherence_cv": 0.777135985343574,
+      "words": [
+        {
+          "word": "search",
+          "weight": 0.4205038519129865,
+          "normalized_weight": 0.02334570995783142
+        },
+        {
+          "word": "mail",
+          "weight": 0.3802365034171798,
+          "normalized_weight": 0.021110130344285934
+        },
+        {
+          "word": "software",
+          "weight": 0.3665928599338067,
+          "normalized_weight": 0.020352656798962036
+        },
+        {
+          "word": "user",
+          "weight": 0.3497055454033638,
+          "normalized_weight": 0.019415099758281297
+        },
+        {
+          "word": "microsoft",
+          "weight": 0.3358569176767206,
+          "normalized_weight": 0.0186462458114045
+        },
+        {
+          "word": "virus",
+          "weight": 0.3350314945226267,
+          "normalized_weight": 0.01860041962108475
+        },
+        {
+          "word": "system",
+          "weight": 0.28677647985788796,
+          "normalized_weight": 0.01592137739293649
+        },
+        {
+          "word": "computer",
+          "weight": 0.26519083743870236,
+          "normalized_weight": 0.014722976605692223
+        },
+        {
+          "word": "program",
+          "weight": 0.2196021125829717,
+          "normalized_weight": 0.012191962578145334
+        },
+        {
+          "word": "site",
+          "weight": 0.21854322867762316,
+          "normalized_weight": 0.012133175015508696
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/tech/036.txt",
+          "title": "Microsoft seeking spyware trojan",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/tech/210.txt",
+          "title": "Toxic web links help virus spread",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/tech/039.txt",
+          "title": "Security warning over 'FBI virus'",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "topic": 9,
+      "label": "mobile / phone / use",
+      "coherence_cv": 0.7260472927083552,
+      "words": [
+        {
+          "word": "mobile",
+          "weight": 0.6850951668647972,
+          "normalized_weight": 0.04620164193948365
+        },
+        {
+          "word": "phone",
+          "weight": 0.6104853838318707,
+          "normalized_weight": 0.04117008625555614
+        },
+        {
+          "word": "use",
+          "weight": 0.2522149195963356,
+          "normalized_weight": 0.017008941196172838
+        },
+        {
+          "word": "service",
+          "weight": 0.2430859803038318,
+          "normalized_weight": 0.016393301202083113
+        },
+        {
+          "word": "people",
+          "weight": 0.2398864637226161,
+          "normalized_weight": 0.01617753129650744
+        },
+        {
+          "word": "technology",
+          "weight": 0.23575887746841778,
+          "normalized_weight": 0.015899173965417932
+        },
+        {
+          "word": "consumer",
+          "weight": 0.19494182608877086,
+          "normalized_weight": 0.01314654209166233
+        },
+        {
+          "word": "network",
+          "weight": 0.19103535742749936,
+          "normalized_weight": 0.012883096551443683
+        },
+        {
+          "word": "broadband",
+          "weight": 0.18425804488070416,
+          "normalized_weight": 0.012426046228009134
+        },
+        {
+          "word": "digital",
+          "weight": 0.17943337503920911,
+          "normalized_weight": 0.012100678776486929
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/tech/054.txt",
+          "title": "Moving mobile improves golf swing",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/tech/109.txt",
+          "title": "Home phones face unclear future",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/tech/225.txt",
+          "title": "Lifestyle 'governs mobile choice'",
+          "weight": 0.9890827235841794
+        }
+      ]
+    },
+    {
+      "topic": 10,
+      "label": "final / win / champion",
+      "coherence_cv": 0.7545696839804306,
+      "words": [
+        {
+          "word": "final",
+          "weight": 0.3139613696218309,
+          "normalized_weight": 0.015729620528844072
+        },
+        {
+          "word": "win",
+          "weight": 0.3116730687135262,
+          "normalized_weight": 0.015614975516985456
+        },
+        {
+          "word": "champion",
+          "weight": 0.2861938874514691,
+          "normalized_weight": 0.014338455882991846
+        },
+        {
+          "word": "seed",
+          "weight": 0.26358073868488335,
+          "normalized_weight": 0.01320552590027094
+        },
+        {
+          "word": "match",
+          "weight": 0.2593205467295972,
+          "normalized_weight": 0.012992088167732696
+        },
+        {
+          "word": "second",
+          "weight": 0.25780263446934126,
+          "normalized_weight": 0.012916040009710373
+        },
+        {
+          "word": "set",
+          "weight": 0.23766352454180026,
+          "normalized_weight": 0.011907060601414183
+        },
+        {
+          "word": "indoor",
+          "weight": 0.2320794633544325,
+          "normalized_weight": 0.011627296362925418
+        },
+        {
+          "word": "world",
+          "weight": 0.2299630532609609,
+          "normalized_weight": 0.011521263166249589
+        },
+        {
+          "word": "play",
+          "weight": 0.2266840308646806,
+          "normalized_weight": 0.011356982515858762
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/sport/018.txt",
+          "title": "Merritt close to indoor 400m mark",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/sport/476.txt",
+          "title": "Henman to face Saulnier test",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/sport/083.txt",
+          "title": "Johnson too strong for GB runners",
+          "weight": 0.9910118095830505
+        }
+      ]
+    },
+    {
+      "topic": 11,
+      "label": "england / half / robinson",
+      "coherence_cv": 0.7297643093368338,
+      "words": [
+        {
+          "word": "england",
+          "weight": 0.5217688010633986,
+          "normalized_weight": 0.027826214531277076
+        },
+        {
+          "word": "half",
+          "weight": 0.41974955111515505,
+          "normalized_weight": 0.022385472329761527
+        },
+        {
+          "word": "robinson",
+          "weight": 0.27472911608475653,
+          "normalized_weight": 0.01465145349162737
+        },
+        {
+          "word": "penalty",
+          "weight": 0.2682587253306432,
+          "normalized_weight": 0.01430638402626608
+        },
+        {
+          "word": "france",
+          "weight": 0.2517751329620969,
+          "normalized_weight": 0.013427305061486124
+        },
+        {
+          "word": "italy",
+          "weight": 0.24493043892855315,
+          "normalized_weight": 0.013062273798232807
+        },
+        {
+          "word": "side",
+          "weight": 0.2402135079858145,
+          "normalized_weight": 0.012810717300269803
+        },
+        {
+          "word": "wale",
+          "weight": 0.23489451755164098,
+          "normalized_weight": 0.012527052641498572
+        },
+        {
+          "word": "six",
+          "weight": 0.2312079063313573,
+          "normalized_weight": 0.01233044365587131
+        },
+        {
+          "word": "try",
+          "weight": 0.22777632791757232,
+          "normalized_weight": 0.012147435708810717
+        }
+      ],
+      "examples": [
+        {
+          "id": "bbc:bbc/sport/407.txt",
+          "title": "Scotland 18-10 Italy",
+          "weight": 1.0
+        },
+        {
+          "id": "bbc:bbc/sport/286.txt",
+          "title": "Yachvili savours France comeback",
+          "weight": 0.9952321765405086
+        },
+        {
+          "id": "bbc:bbc/sport/356.txt",
+          "title": "Dawson joins England injury list",
+          "weight": 0.9630512667700397
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.3
+matplotlib==3.10.7
+gensim==4.4.0
+ftfy==6.3.1
+beautifulsoup4==4.14.2
+nltk==3.9.2
+pymorphy3==2.0.6
+pyLDAvis==3.4.1
+requests==2.32.5
+pytest==8.4.2

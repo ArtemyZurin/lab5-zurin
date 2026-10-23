@@ -1,0 +1,509 @@
+{
+  "k": 5,
+  "source_counts": {
+    "Казань": 3,
+    "Кунгур": 3,
+    "Москва": 3,
+    "Новосибирск": 2,
+    "Пермь": 3,
+    "Петрозаводск": 2,
+    "Санкт-Петербург": 2,
+    "Уфа": 3,
+    "Хабаровск": 3
+  },
+  "features": 48,
+  "ari": {
+    "kmeans / hierarchical": 1.0,
+    "kmeans / spectral": 1.0,
+    "hierarchical / spectral": 1.0
+  },
+  "expected_pairs_same_cluster": {
+    "Пермь / Кунгур": {
+      "kmeans": false,
+      "hierarchical": false,
+      "spectral": false
+    },
+    "Казань / Уфа": {
+      "kmeans": true,
+      "hierarchical": true,
+      "spectral": true
+    }
+  },
+  "clusters": {
+    "kmeans": [
+      {
+        "cluster": 0,
+        "cities": [
+          "Новосибирск",
+          "Пермь",
+          "Хабаровск"
+        ],
+        "top_dishes": [
+          {
+            "dish": "строганина",
+            "frequency": 0.7777777777777777
+          },
+          {
+            "dish": "пельмени",
+            "frequency": 0.7222222222222222
+          },
+          {
+            "dish": "уха",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "шаньги",
+            "frequency": 0.5
+          },
+          {
+            "dish": "посику́нчики",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "папоротник",
+            "frequency": 0.3333333333333333
+          }
+        ]
+      },
+      {
+        "cluster": 1,
+        "cities": [
+          "Санкт-Петербург"
+        ],
+        "top_dishes": [
+          {
+            "dish": "шаверма",
+            "frequency": 1.0
+          },
+          {
+            "dish": "корюшка",
+            "frequency": 1.0
+          },
+          {
+            "dish": "пышки",
+            "frequency": 0.5
+          },
+          {
+            "dish": "тартар",
+            "frequency": 0.5
+          },
+          {
+            "dish": "пельмени",
+            "frequency": 0.5
+          },
+          {
+            "dish": "блины",
+            "frequency": 0.5
+          }
+        ]
+      },
+      {
+        "cluster": 2,
+        "cities": [
+          "Казань",
+          "Уфа"
+        ],
+        "top_dishes": [
+          {
+            "dish": "эчпочмак",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "чак-чак",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "кыстыбый",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "манты",
+            "frequency": 0.5
+          },
+          {
+            "dish": "казы",
+            "frequency": 0.5
+          },
+          {
+            "dish": "бэлеш",
+            "frequency": 0.5
+          }
+        ]
+      },
+      {
+        "cluster": 3,
+        "cities": [
+          "Петрозаводск"
+        ],
+        "top_dishes": [
+          {
+            "dish": "калитки",
+            "frequency": 1.0
+          },
+          {
+            "dish": "ряпушка",
+            "frequency": 1.0
+          },
+          {
+            "dish": "уха",
+            "frequency": 0.5
+          },
+          {
+            "dish": "лохикейтто",
+            "frequency": 0.5
+          }
+        ]
+      },
+      {
+        "cluster": 4,
+        "cities": [
+          "Кунгур",
+          "Москва"
+        ],
+        "top_dishes": [
+          {
+            "dish": "оливье",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "солянка",
+            "frequency": 0.5
+          },
+          {
+            "dish": "расстегай",
+            "frequency": 0.5
+          },
+          {
+            "dish": "щи",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "калач",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "роллы",
+            "frequency": 0.3333333333333333
+          }
+        ]
+      }
+    ],
+    "hierarchical": [
+      {
+        "cluster": 0,
+        "cities": [
+          "Кунгур",
+          "Москва"
+        ],
+        "top_dishes": [
+          {
+            "dish": "оливье",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "солянка",
+            "frequency": 0.5
+          },
+          {
+            "dish": "расстегай",
+            "frequency": 0.5
+          },
+          {
+            "dish": "щи",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "калач",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "роллы",
+            "frequency": 0.3333333333333333
+          }
+        ]
+      },
+      {
+        "cluster": 1,
+        "cities": [
+          "Казань",
+          "Уфа"
+        ],
+        "top_dishes": [
+          {
+            "dish": "эчпочмак",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "чак-чак",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "кыстыбый",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "манты",
+            "frequency": 0.5
+          },
+          {
+            "dish": "казы",
+            "frequency": 0.5
+          },
+          {
+            "dish": "бэлеш",
+            "frequency": 0.5
+          }
+        ]
+      },
+      {
+        "cluster": 2,
+        "cities": [
+          "Новосибирск",
+          "Пермь",
+          "Хабаровск"
+        ],
+        "top_dishes": [
+          {
+            "dish": "строганина",
+            "frequency": 0.7777777777777777
+          },
+          {
+            "dish": "пельмени",
+            "frequency": 0.7222222222222222
+          },
+          {
+            "dish": "уха",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "шаньги",
+            "frequency": 0.5
+          },
+          {
+            "dish": "посику́нчики",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "папоротник",
+            "frequency": 0.3333333333333333
+          }
+        ]
+      },
+      {
+        "cluster": 3,
+        "cities": [
+          "Петрозаводск"
+        ],
+        "top_dishes": [
+          {
+            "dish": "калитки",
+            "frequency": 1.0
+          },
+          {
+            "dish": "ряпушка",
+            "frequency": 1.0
+          },
+          {
+            "dish": "уха",
+            "frequency": 0.5
+          },
+          {
+            "dish": "лохикейтто",
+            "frequency": 0.5
+          }
+        ]
+      },
+      {
+        "cluster": 4,
+        "cities": [
+          "Санкт-Петербург"
+        ],
+        "top_dishes": [
+          {
+            "dish": "шаверма",
+            "frequency": 1.0
+          },
+          {
+            "dish": "корюшка",
+            "frequency": 1.0
+          },
+          {
+            "dish": "пышки",
+            "frequency": 0.5
+          },
+          {
+            "dish": "тартар",
+            "frequency": 0.5
+          },
+          {
+            "dish": "пельмени",
+            "frequency": 0.5
+          },
+          {
+            "dish": "блины",
+            "frequency": 0.5
+          }
+        ]
+      }
+    ],
+    "spectral": [
+      {
+        "cluster": 0,
+        "cities": [
+          "Санкт-Петербург"
+        ],
+        "top_dishes": [
+          {
+            "dish": "шаверма",
+            "frequency": 1.0
+          },
+          {
+            "dish": "корюшка",
+            "frequency": 1.0
+          },
+          {
+            "dish": "пышки",
+            "frequency": 0.5
+          },
+          {
+            "dish": "тартар",
+            "frequency": 0.5
+          },
+          {
+            "dish": "пельмени",
+            "frequency": 0.5
+          },
+          {
+            "dish": "блины",
+            "frequency": 0.5
+          }
+        ]
+      },
+      {
+        "cluster": 1,
+        "cities": [
+          "Новосибирск",
+          "Пермь",
+          "Хабаровск"
+        ],
+        "top_dishes": [
+          {
+            "dish": "строганина",
+            "frequency": 0.7777777777777777
+          },
+          {
+            "dish": "пельмени",
+            "frequency": 0.7222222222222222
+          },
+          {
+            "dish": "уха",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "шаньги",
+            "frequency": 0.5
+          },
+          {
+            "dish": "посику́нчики",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "папоротник",
+            "frequency": 0.3333333333333333
+          }
+        ]
+      },
+      {
+        "cluster": 2,
+        "cities": [
+          "Кунгур",
+          "Москва"
+        ],
+        "top_dishes": [
+          {
+            "dish": "оливье",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "солянка",
+            "frequency": 0.5
+          },
+          {
+            "dish": "расстегай",
+            "frequency": 0.5
+          },
+          {
+            "dish": "щи",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "калач",
+            "frequency": 0.3333333333333333
+          },
+          {
+            "dish": "роллы",
+            "frequency": 0.3333333333333333
+          }
+        ]
+      },
+      {
+        "cluster": 3,
+        "cities": [
+          "Петрозаводск"
+        ],
+        "top_dishes": [
+          {
+            "dish": "калитки",
+            "frequency": 1.0
+          },
+          {
+            "dish": "ряпушка",
+            "frequency": 1.0
+          },
+          {
+            "dish": "уха",
+            "frequency": 0.5
+          },
+          {
+            "dish": "лохикейтто",
+            "frequency": 0.5
+          }
+        ]
+      },
+      {
+        "cluster": 4,
+        "cities": [
+          "Казань",
+          "Уфа"
+        ],
+        "top_dishes": [
+          {
+            "dish": "эчпочмак",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "чак-чак",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "кыстыбый",
+            "frequency": 0.6666666666666666
+          },
+          {
+            "dish": "манты",
+            "frequency": 0.5
+          },
+          {
+            "dish": "казы",
+            "frequency": 0.5
+          },
+          {
+            "dish": "бэлеш",
+            "frequency": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": "Small convenience sample of selected pages; restaurant menus and regional travel articles differ. Frequency means share of sampled domains, not popularity among residents. Expected regional pairs are hypotheses, not forced labels."
+}

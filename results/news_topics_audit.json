@@ -1,0 +1,40 @@
+{
+  "input": 500,
+  "accepted": 495,
+  "rejected": 5,
+  "reasons": {
+    "duplicate_content": 4,
+    "duplicate_tokens": 1
+  },
+  "rejected_rows": [
+    {
+      "row": 86,
+      "id": "bbc:bbc/tech/392.txt",
+      "reason": "duplicate_content"
+    },
+    {
+      "row": 234,
+      "id": "bbc:bbc/business/267.txt",
+      "reason": "duplicate_content"
+    },
+    {
+      "row": 301,
+      "id": "bbc:bbc/tech/153.txt",
+      "reason": "duplicate_content"
+    },
+    {
+      "row": 367,
+      "id": "bbc:bbc/politics/082.txt",
+      "reason": "duplicate_content"
+    },
+    {
+      "row": 471,
+      "id": "bbc:bbc/tech/341.txt",
+      "reason": "duplicate_tokens"
+    }
+  ],
+  "modeled": 495,
+  "vocabulary_size": 1000,
+  "mean_tokens": 205.4747474747475,
+  "median_tokens": 180.0
+}

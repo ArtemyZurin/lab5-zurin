@@ -1,0 +1,11 @@
+{
+  "input": 234,
+  "accepted": 234,
+  "rejected": 0,
+  "reasons": {},
+  "rejected_rows": [],
+  "modeled": 234,
+  "vocabulary_size": 1000,
+  "mean_tokens": 81.25213675213675,
+  "median_tokens": 80.0
+}

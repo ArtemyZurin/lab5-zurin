@@ -1,0 +1,1195 @@
+{
+  "method": "lda",
+  "k": 16,
+  "coherence_cv": 0.5828968445915956,
+  "fit_seconds": 0.5603124001063406,
+  "warnings": [],
+  "unassigned_documents": 0,
+  "distribution_kind": "posterior probabilities",
+  "topics": [
+    {
+      "topic": 1,
+      "label": "tax / turbotax / software",
+      "coherence_cv": 0.6904973763634572,
+      "words": [
+        {
+          "word": "tax",
+          "weight": 130.78998508879792,
+          "normalized_weight": 0.08211992022630872
+        },
+        {
+          "word": "turbotax",
+          "weight": 63.06249999079415,
+          "normalized_weight": 0.03959544352726715
+        },
+        {
+          "word": "software",
+          "weight": 48.438871879595375,
+          "normalized_weight": 0.030413615323100582
+        },
+        {
+          "word": "version",
+          "weight": 41.93311171169905,
+          "normalized_weight": 0.026328803281594343
+        },
+        {
+          "word": "federal",
+          "weight": 38.06249992046451,
+          "normalized_weight": 0.023898538217282366
+        },
+        {
+          "word": "state",
+          "weight": 37.35447442377077,
+          "normalized_weight": 0.023453985851386708
+        },
+        {
+          "word": "get",
+          "weight": 36.76711203436788,
+          "normalized_weight": 0.023085194980060043
+        },
+        {
+          "word": "step",
+          "weight": 29.541208208593197,
+          "normalized_weight": 0.01854822186753371
+        },
+        {
+          "word": "old",
+          "weight": 27.778419976494227,
+          "normalized_weight": 0.017441409072214864
+        },
+        {
+          "word": "business",
+          "weight": 26.907836834764446,
+          "normalized_weight": 0.016894790628144543
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00NG7JYYM",
+          "title": "TurboTax Home &amp; Business 2014 Fed + State + Fed Efile Tax Software - Win [Download] OLD VERSION",
+          "weight": 0.990898055485831
+        },
+        {
+          "id": "amazon:B00MYXTCIM",
+          "title": "TurboTax Home &amp; Business 2014 Fed + State + Fed Efile Tax Software - Win [Download] OLD VERSION",
+          "weight": 0.9905303005623206
+        },
+        {
+          "id": "amazon:B01617VNYC",
+          "title": "TurboTax Basic 2015 Federal + Fed Efile Tax Preparation Software - PC/MacDisc [Old Version]",
+          "weight": 0.9900265903985968
+        }
+      ]
+    },
+    {
+      "topic": 2,
+      "label": "business / sage / easy",
+      "coherence_cv": 0.4372628706691787,
+      "words": [
+        {
+          "word": "business",
+          "weight": 36.96830214638953,
+          "normalized_weight": 0.032932037232839335
+        },
+        {
+          "word": "sage",
+          "weight": 27.062499977505762,
+          "normalized_weight": 0.02410776814536433
+        },
+        {
+          "word": "easy",
+          "weight": 24.56058859417951,
+          "normalized_weight": 0.02187901989226092
+        },
+        {
+          "word": "software",
+          "weight": 23.471260792951682,
+          "normalized_weight": 0.02090862683588667
+        },
+        {
+          "word": "use",
+          "weight": 23.089584810443487,
+          "normalized_weight": 0.02056862291530986
+        },
+        {
+          "word": "accounting",
+          "weight": 21.062499969142017,
+          "normalized_weight": 0.01876285879870209
+        },
+        {
+          "word": "get",
+          "weight": 14.93634019001295,
+          "normalized_weight": 0.013305564029207122
+        },
+        {
+          "word": "pro",
+          "weight": 14.772288711931237,
+          "normalized_weight": 0.013159423982988718
+        },
+        {
+          "word": "feature",
+          "weight": 13.629912005846325,
+          "normalized_weight": 0.012141773995446867
+        },
+        {
+          "word": "program",
+          "weight": 13.131889882653017,
+          "normalized_weight": 0.011698126812548544
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00600YX70",
+          "title": "Fix-It Utilities 12 Professional [Old Version]",
+          "weight": 0.9923780421645021
+        },
+        {
+          "id": "amazon:B00OSE2638",
+          "title": "DrawPad Graphic Design Editor for Creating, Painting and Editing Vector Images [Download]",
+          "weight": 0.9899193477974843
+        },
+        {
+          "id": "amazon:B00843U55U",
+          "title": "Sage 50 Pro Accounting 2013 US [Download]",
+          "weight": 0.9888392803306021
+        }
+      ]
+    },
+    {
+      "topic": 3,
+      "label": "security / protection / kaspersky",
+      "coherence_cv": 0.6556010957775548,
+      "words": [
+        {
+          "word": "security",
+          "weight": 36.879930416203635,
+          "normalized_weight": 0.04027061491958541
+        },
+        {
+          "word": "protection",
+          "weight": 35.389257912647295,
+          "normalized_weight": 0.03864289226163927
+        },
+        {
+          "word": "kaspersky",
+          "weight": 33.06249996884669,
+          "normalized_weight": 0.036102215744399625
+        },
+        {
+          "word": "internet",
+          "weight": 32.34902843335065,
+          "normalized_weight": 0.03532314872508056
+        },
+        {
+          "word": "window",
+          "weight": 18.696272279260178,
+          "normalized_weight": 0.020415179011807623
+        },
+        {
+          "word": "device",
+          "weight": 17.194125930320364,
+          "normalized_weight": 0.01877492762064886
+        },
+        {
+          "word": "award",
+          "weight": 15.942080438971916,
+          "normalized_weight": 0.01740777097813677
+        },
+        {
+          "word": "win",
+          "weight": 15.476940342486607,
+          "normalized_weight": 0.016899866611240547
+        },
+        {
+          "word": "threat",
+          "weight": 13.548473009241297,
+          "normalized_weight": 0.01479409893527984
+        },
+        {
+          "word": "digital",
+          "weight": 11.727585645230821,
+          "normalized_weight": 0.012805801966699141
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00J04F9LW",
+          "title": "360 internet security [Download]",
+          "weight": 0.9909855715200083
+        },
+        {
+          "id": "amazon:B00LI95DNG",
+          "title": "Autodesk SketchBook Pro 7",
+          "weight": 0.9893465853287223
+        },
+        {
+          "id": "amazon:B00EZJRS8E",
+          "title": "Mavis Beacon Teaches Typing Powered by UltraKey - Personal Edition",
+          "weight": 0.9862132272757278
+        }
+      ]
+    },
+    {
+      "topic": 4,
+      "label": "device / trend / micro",
+      "coherence_cv": 0.6999567377686031,
+      "words": [
+        {
+          "word": "device",
+          "weight": 25.684230817539426,
+          "normalized_weight": 0.023154415334190378
+        },
+        {
+          "word": "trend",
+          "weight": 22.917445331510997,
+          "normalized_weight": 0.020660149465797542
+        },
+        {
+          "word": "micro",
+          "weight": 22.715292390447054,
+          "normalized_weight": 0.020477907949916666
+        },
+        {
+          "word": "security",
+          "weight": 21.791845687227394,
+          "normalized_weight": 0.019645417825636384
+        },
+        {
+          "word": "online",
+          "weight": 20.646757222679252,
+          "normalized_weight": 0.018613116952353778
+        },
+        {
+          "word": "mac",
+          "weight": 15.09416123124422,
+          "normalized_weight": 0.013607434100412947
+        },
+        {
+          "word": "family",
+          "weight": 13.52033243459516,
+          "normalized_weight": 0.012188622461419411
+        },
+        {
+          "word": "version",
+          "weight": 13.432632589522608,
+          "normalized_weight": 0.012109560773647655
+        },
+        {
+          "word": "use",
+          "weight": 13.279839216159374,
+          "normalized_weight": 0.011971817064198182
+        },
+        {
+          "word": "protection",
+          "weight": 13.209810384978374,
+          "normalized_weight": 0.011908685851351991
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00MUY6KY4",
+          "title": "Trend Micro Maximum Security 2015 - 3 Devices  [OLD VERSION]",
+          "weight": 0.9905302962511986
+        },
+        {
+          "id": "amazon:B00ENFYLOO",
+          "title": "Trend Micro Titanium Maximum 2014 3 Devices [Old Version]",
+          "weight": 0.9900265922730681
+        },
+        {
+          "id": "amazon:B00ENFYLRQ",
+          "title": "Trend MicroTrend Micro Titanium Maximum Premium 2014 [Old Version]",
+          "weight": 0.9899193516354905
+        }
+      ]
+    },
+    {
+      "topic": 5,
+      "label": "backup / image / windows",
+      "coherence_cv": 0.5402795388605639,
+      "words": [
+        {
+          "word": "backup",
+          "weight": 39.54451999107938,
+          "normalized_weight": 0.037930143179607634
+        },
+        {
+          "word": "image",
+          "weight": 29.862827023917983,
+          "normalized_weight": 0.028643698419416514
+        },
+        {
+          "word": "windows",
+          "weight": 22.517310370134414,
+          "normalized_weight": 0.021598057241598332
+        },
+        {
+          "word": "acronis",
+          "weight": 22.062499945858296,
+          "normalized_weight": 0.021161814128361333
+        },
+        {
+          "word": "use",
+          "weight": 18.33993736501414,
+          "normalized_weight": 0.017591222508629434
+        },
+        {
+          "word": "home",
+          "weight": 17.576176905847003,
+          "normalized_weight": 0.016858642025223202
+        },
+        {
+          "word": "true",
+          "weight": 17.014115800661365,
+          "normalized_weight": 0.016319526663595624
+        },
+        {
+          "word": "window",
+          "weight": 16.732604839903107,
+          "normalized_weight": 0.016049508186936953
+        },
+        {
+          "word": "faster",
+          "weight": 15.289554241797283,
+          "normalized_weight": 0.014665369099803774
+        },
+        {
+          "word": "file",
+          "weight": 14.137509160524749,
+          "normalized_weight": 0.013560355436927417
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B01019BM7O",
+          "title": "Microsoft Windows 10 Home | Download",
+          "weight": 0.9903350475332319
+        },
+        {
+          "id": "amazon:B01019T6O0",
+          "title": "Microsoft Windows 10 Home USB Flash Drive [Old Version]",
+          "weight": 0.9881329070473915
+        },
+        {
+          "id": "amazon:B009SPK1DY",
+          "title": "Microsoft Publisher 2013 Key Card (No Disc)",
+          "weight": 0.9867957617359653
+        }
+      ]
+    },
+    {
+      "topic": 6,
+      "label": "window / requirement / system",
+      "coherence_cv": 0.8228113843890681,
+      "words": [
+        {
+          "word": "window",
+          "weight": 52.301578143223225,
+          "normalized_weight": 0.05424711704465113
+        },
+        {
+          "word": "requirement",
+          "weight": 19.337825452417047,
+          "normalized_weight": 0.020057163052205607
+        },
+        {
+          "word": "system",
+          "weight": 18.72461540693092,
+          "normalized_weight": 0.019421142528707275
+        },
+        {
+          "word": "processor",
+          "weight": 14.746163179600474,
+          "normalized_weight": 0.015294697949127955
+        },
+        {
+          "word": "hard",
+          "weight": 14.144724871320463,
+          "normalized_weight": 0.014670887053497644
+        },
+        {
+          "word": "free",
+          "weight": 12.902136186775966,
+          "normalized_weight": 0.01338207596591905
+        },
+        {
+          "word": "video",
+          "weight": 12.43843054050692,
+          "normalized_weight": 0.012901121177164136
+        },
+        {
+          "word": "file",
+          "weight": 11.924370831172642,
+          "normalized_weight": 0.012367939231031804
+        },
+        {
+          "word": "high",
+          "weight": 11.789919189263784,
+          "normalized_weight": 0.012228486193199899
+        },
+        {
+          "word": "windows",
+          "weight": 10.626939105416067,
+          "normalized_weight": 0.01102224502479149
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00FB5R6L0",
+          "title": "Nero Burn Express 3",
+          "weight": 0.9901315740073581
+        },
+        {
+          "id": "amazon:B00UBKB40Y",
+          "title": "MiniTool Partition Wizard Free Edition [Download]",
+          "weight": 0.9874999954380709
+        },
+        {
+          "id": "amazon:B00UB76290",
+          "title": "Kindle for PC [Download]",
+          "weight": 0.9866071359657665
+        }
+      ]
+    },
+    {
+      "topic": 7,
+      "label": "norton / security / device",
+      "coherence_cv": 0.6538855759715723,
+      "words": [
+        {
+          "word": "norton",
+          "weight": 121.98941539190646,
+          "normalized_weight": 0.06388941912755768
+        },
+        {
+          "word": "security",
+          "weight": 64.56170884537256,
+          "normalized_weight": 0.033812852227891085
+        },
+        {
+          "word": "device",
+          "weight": 61.29105675832967,
+          "normalized_weight": 0.032099916221613865
+        },
+        {
+          "word": "online",
+          "weight": 41.694899742755375,
+          "normalized_weight": 0.021836836553305854
+        },
+        {
+          "word": "protection",
+          "weight": 40.931213179339174,
+          "normalized_weight": 0.021436871599170834
+        },
+        {
+          "word": "protect",
+          "weight": 32.32847964428825,
+          "normalized_weight": 0.01693136883323144
+        },
+        {
+          "word": "keep",
+          "weight": 32.032647600162306,
+          "normalized_weight": 0.016776432952951958
+        },
+        {
+          "word": "threat",
+          "weight": 27.530864864679486,
+          "normalized_weight": 0.014418717875094904
+        },
+        {
+          "word": "system",
+          "weight": 27.054533787325468,
+          "normalized_weight": 0.014169249380252269
+        },
+        {
+          "word": "product",
+          "weight": 26.350383085983772,
+          "normalized_weight": 0.01380046509562844
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B001E0RZ3U",
+          "title": "Norton Internet Security 2009 [OLD VERSION]",
+          "weight": 0.9913990762258793
+        },
+        {
+          "id": "amazon:B00MHZ71G2",
+          "title": "Norton Security with Backup (For 10 Devices) [Online Code]",
+          "weight": 0.9888392783242881
+        },
+        {
+          "id": "amazon:B0144NYGJY",
+          "title": "Norton Security Deluxe &ndash; 5 Devices &ndash; 1 Year Subscription &ndash; Product Key Card - 2019 Ready",
+          "weight": 0.987664468824528
+        }
+      ]
+    },
+    {
+      "topic": 8,
+      "label": "home / view / large",
+      "coherence_cv": 0.2528043166993628,
+      "words": [
+        {
+          "word": "home",
+          "weight": 48.9193205272105,
+          "normalized_weight": 0.03358695701732838
+        },
+        {
+          "word": "view",
+          "weight": 28.959587500025584,
+          "normalized_weight": 0.01988303210511463
+        },
+        {
+          "word": "large",
+          "weight": 26.6356310296932,
+          "normalized_weight": 0.01828745340046399
+        },
+        {
+          "word": "windows",
+          "weight": 21.024964000372538,
+          "normalized_weight": 0.014435289667987058
+        },
+        {
+          "word": "bit",
+          "weight": 19.838695399454362,
+          "normalized_weight": 0.013620823071136373
+        },
+        {
+          "word": "software",
+          "weight": 19.78209564561422,
+          "normalized_weight": 0.013581962893216223
+        },
+        {
+          "word": "system",
+          "weight": 19.77664012254956,
+          "normalized_weight": 0.01357821724800478
+        },
+        {
+          "word": "program",
+          "weight": 18.967039742482417,
+          "normalized_weight": 0.013022362978700226
+        },
+        {
+          "word": "file",
+          "weight": 18.733639549904353,
+          "normalized_weight": 0.01286211540879387
+        },
+        {
+          "word": "offer",
+          "weight": 18.45053460380023,
+          "normalized_weight": 0.012667741620406861
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B000XYUSMI",
+          "title": "Hallmark Half-Fold Glossy Premium Photo Greeting Cards - 15 count",
+          "weight": 0.9882812443606643
+        },
+        {
+          "id": "amazon:B004E9SKE6",
+          "title": "Microsoft Windows 7 Anytime Upgrade [Home Premium to Professional]",
+          "weight": 0.9881329024340791
+        },
+        {
+          "id": "amazon:B00KQV8RNK",
+          "title": "Driver Booster FREE [Download]",
+          "weight": 0.9857954411266105
+        }
+      ]
+    },
+    {
+      "topic": 9,
+      "label": "computer / usb / online",
+      "coherence_cv": 0.4390128947043667,
+      "words": [
+        {
+          "word": "computer",
+          "weight": 28.313697754703092,
+          "normalized_weight": 0.021283053683119366
+        },
+        {
+          "word": "usb",
+          "weight": 22.062500021761746,
+          "normalized_weight": 0.016584106265985016
+        },
+        {
+          "word": "online",
+          "weight": 21.932033274695556,
+          "normalized_weight": 0.01648603603843198
+        },
+        {
+          "word": "work",
+          "weight": 20.921834774112252,
+          "normalized_weight": 0.015726682417269943
+        },
+        {
+          "word": "security",
+          "weight": 20.15080395879878,
+          "normalized_weight": 0.015147108163994243
+        },
+        {
+          "word": "mcafee",
+          "weight": 19.549506864255083,
+          "normalized_weight": 0.014695120632957205
+        },
+        {
+          "word": "shop",
+          "weight": 18.914465149527338,
+          "normalized_weight": 0.014217767691541218
+        },
+        {
+          "word": "every",
+          "weight": 18.776984385462082,
+          "normalized_weight": 0.01411442511483694
+        },
+        {
+          "word": "use",
+          "weight": 18.3825094863103,
+          "normalized_weight": 0.013817903250118798
+        },
+        {
+          "word": "digital",
+          "weight": 17.779751922077043,
+          "normalized_weight": 0.013364817902220296
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B0000AZJY6",
+          "title": "Iogear POWERLINE/HOMEPLUG WALL MOUNT (GHPU21)",
+          "weight": 0.9914772700292663
+        },
+        {
+          "id": "amazon:B005AAWXZ0",
+          "title": "Mcafee Internet Security 2012 - 3 Users [Old Version]",
+          "weight": 0.9913990784967888
+        },
+        {
+          "id": "amazon:B000050ZRE",
+          "title": "Key Span 4-Port USB Hub - White (UH-4WH)",
+          "weight": 0.9909855711382245
+        }
+      ]
+    },
+    {
+      "topic": 10,
+      "label": "norton / antivirus / threat",
+      "coherence_cv": 0.6091131160678876,
+      "words": [
+        {
+          "word": "norton",
+          "weight": 15.081357850097245,
+          "normalized_weight": 0.035672884082973574
+        },
+        {
+          "word": "antivirus",
+          "weight": 13.513789464810534,
+          "normalized_weight": 0.03196501600794435
+        },
+        {
+          "word": "threat",
+          "weight": 12.419376641970183,
+          "normalized_weight": 0.02937633253818291
+        },
+        {
+          "word": "virus",
+          "weight": 11.117453179218247,
+          "normalized_weight": 0.026296811102959228
+        },
+        {
+          "word": "protection",
+          "weight": 9.340949471188365,
+          "normalized_weight": 0.022094735170577976
+        },
+        {
+          "word": "file",
+          "weight": 9.201229310611248,
+          "normalized_weight": 0.02176424628875028
+        },
+        {
+          "word": "disk",
+          "weight": 9.06250014887356,
+          "normalized_weight": 0.021436101478794413
+        },
+        {
+          "word": "like",
+          "weight": 6.238012884834365,
+          "normalized_weight": 0.014755164141096023
+        },
+        {
+          "word": "mac",
+          "weight": 6.0625001943744845,
+          "normalized_weight": 0.014340012937597077
+        },
+        {
+          "word": "scan",
+          "weight": 5.657884792136928,
+          "normalized_weight": 0.013382950683278046
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00113O0PQ",
+          "title": "Norton AntiVirus 11.0 For Mac",
+          "weight": 0.9921874970317455
+        },
+        {
+          "id": "amazon:B0043EV5DU",
+          "title": "Norton Antivirus 2011 - 1 User/3 Pc [Old Version]",
+          "weight": 0.9881329065648488
+        },
+        {
+          "id": "amazon:B00U3H6626",
+          "title": "Smart Defrag 3 [Download]",
+          "weight": 0.985119037959608
+        }
+      ]
+    },
+    {
+      "topic": 11,
+      "label": "quicken / money / finance",
+      "coherence_cv": 0.4443928340432768,
+      "words": [
+        {
+          "word": "quicken",
+          "weight": 22.0624998273485,
+          "normalized_weight": 0.029614533429785896
+        },
+        {
+          "word": "money",
+          "weight": 19.909040092432555,
+          "normalized_weight": 0.026723940531953316
+        },
+        {
+          "word": "finance",
+          "weight": 14.889741428475483,
+          "normalized_weight": 0.01998652685530466
+        },
+        {
+          "word": "investment",
+          "weight": 12.440774510975633,
+          "normalized_weight": 0.01669927413171086
+        },
+        {
+          "word": "personal",
+          "weight": 12.023664677511182,
+          "normalized_weight": 0.01613938684769088
+        },
+        {
+          "word": "game",
+          "weight": 11.955614475035334,
+          "normalized_weight": 0.016048042937803274
+        },
+        {
+          "word": "track",
+          "weight": 11.634213559739575,
+          "normalized_weight": 0.015616625907780618
+        },
+        {
+          "word": "software",
+          "weight": 10.78752064267018,
+          "normalized_weight": 0.014480108473512701
+        },
+        {
+          "word": "nancy",
+          "weight": 10.06249999305365,
+          "normalized_weight": 0.013506911943954506
+        },
+        {
+          "word": "account",
+          "weight": 9.92483629368358,
+          "normalized_weight": 0.013322125711253472
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B000069IL2",
+          "title": "Microsoft Money 2003 Deluxe [OLD VERSION]",
+          "weight": 0.9921874951733491
+        },
+        {
+          "id": "amazon:B00003IRBV",
+          "title": "Nancy Drew: Stay Tuned for Danger - PC",
+          "weight": 0.98922413270128
+        },
+        {
+          "id": "amazon:B01326J5MC",
+          "title": "Quicken For Mac 2016 Personal Finance &amp; Budgeting Software [Old Version]",
+          "weight": 0.9864130372228446
+        }
+      ]
+    },
+    {
+      "topic": 12,
+      "label": "photo / corel / work",
+      "coherence_cv": 0.4362681518715009,
+      "words": [
+        {
+          "word": "photo",
+          "weight": 54.04107182317176,
+          "normalized_weight": 0.030474294378911776
+        },
+        {
+          "word": "corel",
+          "weight": 33.45273804978741,
+          "normalized_weight": 0.01886432953153836
+        },
+        {
+          "word": "work",
+          "weight": 33.37722261010308,
+          "normalized_weight": 0.01882174562893511
+        },
+        {
+          "word": "new",
+          "weight": 30.175036614805425,
+          "normalized_weight": 0.017016001305505773
+        },
+        {
+          "word": "edit",
+          "weight": 28.334346060579776,
+          "normalized_weight": 0.015978017714182873
+        },
+        {
+          "word": "pro",
+          "weight": 26.766695971868554,
+          "normalized_weight": 0.015094004339266264
+        },
+        {
+          "word": "office",
+          "weight": 25.858483826724502,
+          "normalized_weight": 0.01458185453660903
+        },
+        {
+          "word": "tool",
+          "weight": 25.155785866253034,
+          "normalized_weight": 0.0141855962133667
+        },
+        {
+          "word": "version",
+          "weight": 25.02316079167618,
+          "normalized_weight": 0.01411080762334937
+        },
+        {
+          "word": "mac",
+          "weight": 23.213204689940316,
+          "normalized_weight": 0.013090155493471443
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B01FFVDY9M",
+          "title": "Corel AfterShot Pro 3 Photo Editing Software for PC/Mac (Key Card)",
+          "weight": 0.9905302976143848
+        },
+        {
+          "id": "amazon:B00OMQLNJK",
+          "title": "Corel Painter Essentials 5 Digital Art Suite for PC and Mac (Old Version)",
+          "weight": 0.9904336649424104
+        },
+        {
+          "id": "amazon:B0123C60EW",
+          "title": "Corel PaintShop Pro X8 [Old Version]",
+          "weight": 0.9902343683763448
+        }
+      ]
+    },
+    {
+      "topic": 13,
+      "label": "clean / free / system",
+      "coherence_cv": 0.6294263602448605,
+      "words": [
+        {
+          "word": "clean",
+          "weight": 16.60574009800534,
+          "normalized_weight": 0.05571507331639739
+        },
+        {
+          "word": "free",
+          "weight": 16.21973472267592,
+          "normalized_weight": 0.05441995983996851
+        },
+        {
+          "word": "system",
+          "weight": 8.48115965414335,
+          "normalized_weight": 0.028455728510132932
+        },
+        {
+          "word": "software",
+          "weight": 7.66221990981615,
+          "normalized_weight": 0.025708046827316377
+        },
+        {
+          "word": "repair",
+          "weight": 6.0624999871439575,
+          "normalized_weight": 0.02034071527501244
+        },
+        {
+          "word": "tune",
+          "weight": 5.976165437181434,
+          "normalized_weight": 0.020051048222986378
+        },
+        {
+          "word": "error",
+          "weight": 5.352100808327847,
+          "normalized_weight": 0.01795720559112895
+        },
+        {
+          "word": "version",
+          "weight": 5.232788516313734,
+          "normalized_weight": 0.017556892623571897
+        },
+        {
+          "word": "run",
+          "weight": 4.0085883099353,
+          "normalized_weight": 0.01344949338392487
+        },
+        {
+          "word": "tool",
+          "weight": 3.8503728579431384,
+          "normalized_weight": 0.012918653719115887
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B00111DJQ4",
+          "title": "System Mechanic - Up to 3 PCs",
+          "weight": 0.9832589227812035
+        },
+        {
+          "id": "amazon:B000XJLSKY",
+          "title": "Ubuntu 7.10 [OLD VERSION]",
+          "weight": 0.983258920892374
+        },
+        {
+          "id": "amazon:B00KQV8DJ8",
+          "title": "Advanced SystemCare 7 FREE [Download]",
+          "weight": 0.42098969554589516
+        }
+      ]
+    },
+    {
+      "topic": 14,
+      "label": "malware / virus / anti",
+      "coherence_cv": 0.6445557198272134,
+      "words": [
+        {
+          "word": "malware",
+          "weight": 16.61948413980685,
+          "normalized_weight": 0.035571870604862034
+        },
+        {
+          "word": "virus",
+          "weight": 14.994915436024923,
+          "normalized_weight": 0.03209469001167963
+        },
+        {
+          "word": "anti",
+          "weight": 14.935681000172462,
+          "normalized_weight": 0.0319679063119107
+        },
+        {
+          "word": "spyware",
+          "weight": 14.252111475431358,
+          "normalized_weight": 0.030504813566133084
+        },
+        {
+          "word": "protection",
+          "weight": 11.640565075568192,
+          "normalized_weight": 0.02491513401693346
+        },
+        {
+          "word": "security",
+          "weight": 11.077377987286848,
+          "normalized_weight": 0.023709704410205257
+        },
+        {
+          "word": "excel",
+          "weight": 9.879021358367002,
+          "normalized_weight": 0.021144776005459304
+        },
+        {
+          "word": "protect",
+          "weight": 8.981333835916441,
+          "normalized_weight": 0.019223391194499603
+        },
+        {
+          "word": "antivirus",
+          "weight": 8.219059613866486,
+          "normalized_weight": 0.017591841155757067
+        },
+        {
+          "word": "kaspersky",
+          "weight": 8.062499985495908,
+          "normalized_weight": 0.01725674538530506
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B0056CZATI",
+          "title": "Kaspersky Anti-Virus 2012 - 3 PCs [Old Version]",
+          "weight": 0.9862132306567973
+        },
+        {
+          "id": "amazon:B00068IBZW",
+          "title": "PC-cillin Internet Security 2005 (Old Version)",
+          "weight": 0.985576915121981
+        },
+        {
+          "id": "amazon:B00E5UHRIO",
+          "title": "Kaspersky Anti-Virus 2014 (3User)",
+          "weight": 0.5942907711981438
+        }
+      ]
+    },
+    {
+      "topic": 15,
+      "label": "digital / medium / music",
+      "coherence_cv": 0.8785382286326167,
+      "words": [
+        {
+          "word": "digital",
+          "weight": 20.414419077581073,
+          "normalized_weight": 0.02436949386187045
+        },
+        {
+          "word": "medium",
+          "weight": 19.945220374071884,
+          "normalized_weight": 0.02380939294096197
+        },
+        {
+          "word": "music",
+          "weight": 16.257620315524235,
+          "normalized_weight": 0.019407359914683064
+        },
+        {
+          "word": "capture",
+          "weight": 16.062499926440033,
+          "normalized_weight": 0.01917443704256788
+        },
+        {
+          "word": "burn",
+          "weight": 15.697925985422804,
+          "normalized_weight": 0.018739230809950946
+        },
+        {
+          "word": "video",
+          "weight": 15.37292334641973,
+          "normalized_weight": 0.01835126239477449
+        },
+        {
+          "word": "new",
+          "weight": 13.004133400076924,
+          "normalized_weight": 0.015523544797811087
+        },
+        {
+          "word": "copy",
+          "weight": 12.682677360499158,
+          "normalized_weight": 0.015139810097666987
+        },
+        {
+          "word": "convert",
+          "weight": 12.351844160309568,
+          "normalized_weight": 0.014744881512597573
+        },
+        {
+          "word": "toast",
+          "weight": 12.062499999999805,
+          "normalized_weight": 0.014399480023981108
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B004QK8FBG",
+          "title": "Toast 11 Titanium Mac [Old Version]",
+          "weight": 0.9926757777940944
+        },
+        {
+          "id": "amazon:B0123C60F6",
+          "title": "Roxio Toast 14 Titanium (Old Version)",
+          "weight": 0.9896977972371508
+        },
+        {
+          "id": "amazon:B00O66FYU0",
+          "title": "Adobe Creative Cloud Photography plan (Photoshop CC + Lightroom) Student and Teacher [Key Card] - Validation Required",
+          "weight": 0.9829545335113913
+        }
+      ]
+    },
+    {
+      "topic": 16,
+      "label": "video / edit / make",
+      "coherence_cv": 0.4919433115744469,
+      "words": [
+        {
+          "word": "video",
+          "weight": 46.394887135387634,
+          "normalized_weight": 0.036625533003066264
+        },
+        {
+          "word": "edit",
+          "weight": 40.225495614323904,
+          "normalized_weight": 0.03175522796052617
+        },
+        {
+          "word": "make",
+          "weight": 25.58421475081248,
+          "normalized_weight": 0.02019695616413505
+        },
+        {
+          "word": "ultimate",
+          "weight": 22.6194534262036,
+          "normalized_weight": 0.017856483529212885
+        },
+        {
+          "word": "movie",
+          "weight": 19.084718618119037,
+          "normalized_weight": 0.015066056515287862
+        },
+        {
+          "word": "available",
+          "weight": 18.52516826179708,
+          "normalized_weight": 0.014624330469429769
+        },
+        {
+          "word": "support",
+          "weight": 16.7212727943208,
+          "normalized_weight": 0.013200280599767722
+        },
+        {
+          "word": "effect",
+          "weight": 15.74248704048617,
+          "normalized_weight": 0.012427597398159976
+        },
+        {
+          "word": "power",
+          "weight": 15.330199184893667,
+          "normalized_weight": 0.012102124843011784
+        },
+        {
+          "word": "create",
+          "weight": 14.897030163613426,
+          "normalized_weight": 0.01176016806147013
+        }
+      ],
+      "examples": [
+        {
+          "id": "amazon:B015PIIGQ6",
+          "title": "MAGIX Movie Edit Pro 2016 Plus",
+          "weight": 0.9888392796538545
+        },
+        {
+          "id": "amazon:B01537HQE2",
+          "title": "Cyberlink PowerDirector 14 Ultimate",
+          "weight": 0.9867957685783812
+        },
+        {
+          "id": "amazon:B00N4OLGP2",
+          "title": "Cyberlink PowerDirector 13 Ultimate Suite",
+          "weight": 0.9866071357487327
+        }
+      ]
+    }
+  ]
+}

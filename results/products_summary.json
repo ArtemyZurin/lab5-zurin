@@ -1,0 +1,61 @@
+{
+  "dataset": "products",
+  "arguments": {
+    "dataset": "products",
+    "input": null,
+    "method": "both",
+    "topics": "auto",
+    "compare": true,
+    "output": null,
+    "language": "en",
+    "max_features": 1000,
+    "top_words": 10,
+    "passes": 15,
+    "max_iter": 1000,
+    "seed": 42,
+    "pyldavis": true,
+    "quiet": false
+  },
+  "inputs": [
+    {
+      "file": "products.json",
+      "sha256": "e2813d9f06b1cea12266c210633651e484ab0dd789b341866bcadb65d8246a3b"
+    }
+  ],
+  "code_sha256": "71454404d24c0e56b2005eb8833f83886e6d2993d34f769c56563b1d0c81d908",
+  "versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "gensim": "4.4.0",
+    "nltk": "3.9.2",
+    "ftfy": "6.3.1"
+  },
+  "audit": {
+    "input": 234,
+    "accepted": 234,
+    "rejected": 0,
+    "reasons": {},
+    "modeled": 234,
+    "vocabulary_size": 1000,
+    "mean_tokens": 81.25213675213675,
+    "median_tokens": 80.0
+  },
+  "models": {
+    "lda": {
+      "k": 16,
+      "coherence_cv": 0.5828968445915956,
+      "fit_seconds": 0.5603124001063406,
+      "unassigned_documents": 0,
+      "warnings": []
+    },
+    "nmf": {
+      "k": 10,
+      "coherence_cv": 0.7587501405976733,
+      "fit_seconds": 0.02165889972820878,
+      "unassigned_documents": 0,
+      "warnings": []
+    }
+  },
+  "selection": "maximum in-sample c_v; fixed seed; no held-out generalization claim"
+}

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/downloads/
+*.partial
+
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+.vscode/

@@ -1,0 +1,48 @@
+{
+  "Пермь": [
+    "https://permkuhnya.ru/экскурсии-2/",
+    "https://www.tutu.ru/geo/rossiya/perm_krai/article/vkusno_perm/",
+    "https://provereno.tutu.ru/gastro-perm"
+  ],
+  "Кунгур": [
+    "https://takara-kungur.ru/menu/",
+    "https://vkusimi.ru/",
+    "https://radiotochki.net/blog/tourism/kungur-za-1-den-chto-posmotret-samostoyatelno-gotovyy-marshrut-po-zhemchuzhine-urala.html"
+  ],
+  "Москва": [
+    "https://russiacb.com/regions/moskva/food-moscow/",
+    "https://www.vedomosti.ru/gorod/ourcity/articles/menyalas-moskovskaya",
+    "https://moy-region.ru/guides/kuhnya-moskvy"
+  ],
+  "Санкт-Петербург": [
+    "https://pyshki.spb.ru/",
+    "https://excursionspb.com/gde-poest-v-peterburge/",
+    "https://www.metronews.ru/eda/reviews/gde-proest-koryushku-v-peterburge-v-2026-godu-2188267/"
+  ],
+  "Казань": [
+    "https://visit-tatarstan.com/guides/gastronomicheskie-udovolstviya-v-tatarstane/",
+    "https://tourism.tatarstan.ru/index.htm/news/2129203.htm",
+    "https://www.tatar-inform.ru/news/stalo-izvestno-kakie-sedobnye-suveniry-turisty-uvozyat-iz-kazani-6003331"
+  ],
+  "Уфа": [
+    "https://travelvillage.ru/catalog/food/",
+    "https://www.sobaka.ru/ufa/bars/chtogdeest/183019",
+    "https://www.russiadiscovery.ru/news/putevoditel_ufa/"
+  ],
+  "Новосибирск": [
+    "https://moy-region.ru/guides/kuhnya-novosibirskoy-oblasti",
+    "https://russiacb.com/regions/novosibirsk/food-novosibirsk/",
+    "https://travel.yandex.ru/journal/kak-provesti-den-v-novosibirske/",
+    "https://openkitchen.eda.yandex/article/places/cities/gde-poprobovat-natsionalnuyu-kukhnyu-v-novosibirske"
+  ],
+  "Хабаровск": [
+    "https://zapovednye-mesta.rgo.ru/cuisine",
+    "https://nakhodka.media/news/1343925/",
+    "https://khabarovsktv.ru/news/v-habarovskom-krae-vpervye-proveli-gastrouzhin-posredi-taygi"
+  ],
+  "Петрозаводск": [
+    "https://poehalitur.ru/sovety/chto-poprobovat-kareliya",
+    "https://vezet.ru/blog/chto-posmotret-i-gde-poest-v-petrozavodske",
+    "https://openkitchen.eda.yandex/article/places/cities/luchshie-restorany-i-kafe-petrozavodska-s-karelskoy-kuhney-i-ne-tolko"
+  ]
+}

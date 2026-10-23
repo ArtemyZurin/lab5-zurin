@@ -1,0 +1,7 @@
+news/lda: 495 documents, K=12, c_v=0.611690
+news/nmf: 495 documents, K=11, c_v=0.756448
+products/lda: 234 documents, K=16, c_v=0.582897
+products/nmf: 234 documents, K=10, c_v=0.758750
+cities: 9 cities, frequencies in [0, 1], all 3 methods
+mixed: 729 documents, both methods, fixed K=10
+All artifact checks passed.

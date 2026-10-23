@@ -1,0 +1,68 @@
+{
+  "dataset": "mixed",
+  "arguments": {
+    "dataset": "mixed",
+    "input": null,
+    "method": "both",
+    "topics": 10,
+    "compare": true,
+    "output": null,
+    "language": "en",
+    "max_features": 1000,
+    "top_words": 10,
+    "passes": 15,
+    "max_iter": 1000,
+    "seed": 42,
+    "pyldavis": false,
+    "quiet": false
+  },
+  "inputs": [
+    {
+      "file": "news.json",
+      "sha256": "f679529e59cb7452796d4829400c46420c710c6fedebf4dd8689437fd537fd9a"
+    },
+    {
+      "file": "products.json",
+      "sha256": "e2813d9f06b1cea12266c210633651e484ab0dd789b341866bcadb65d8246a3b"
+    }
+  ],
+  "code_sha256": "71454404d24c0e56b2005eb8833f83886e6d2993d34f769c56563b1d0c81d908",
+  "versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "gensim": "4.4.0",
+    "nltk": "3.9.2",
+    "ftfy": "6.3.1"
+  },
+  "audit": {
+    "input": 734,
+    "accepted": 729,
+    "rejected": 5,
+    "reasons": {
+      "duplicate_content": 4,
+      "duplicate_tokens": 1
+    },
+    "modeled": 729,
+    "vocabulary_size": 1000,
+    "mean_tokens": 165.6008230452675,
+    "median_tokens": 138.0
+  },
+  "models": {
+    "lda": {
+      "k": 10,
+      "coherence_cv": 0.5011981949240812,
+      "fit_seconds": 2.583736200351268,
+      "unassigned_documents": 0,
+      "warnings": []
+    },
+    "nmf": {
+      "k": 10,
+      "coherence_cv": 0.7056211851902024,
+      "fit_seconds": 0.13421149970963597,
+      "unassigned_documents": 0,
+      "warnings": []
+    }
+  },
+  "selection": "maximum in-sample c_v; fixed seed; no held-out generalization claim"
+}

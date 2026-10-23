@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-10-23T10:14:19.813982+00:00",
+  "seed": 42,
+  "sources": [
+    {
+      "url": "http://mlg.ucd.ie/files/datasets/bbc-fulltext.zip",
+      "file": "bbc-fulltext.zip",
+      "sha256": "a351031a62325b3d7ff13146eeb035c22feca8290913b5183d1ff3be35109495"
+    },
+    {
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_v2/metaFiles2/meta_Software.json.gz",
+      "file": "meta_Software.json.gz",
+      "sha256": "5855d757635170c7e456da56efecb9aea2210ca399ab8cbe0d50d98f98a954d0"
+    },
+    {
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_v2/categoryFilesSmall/Software_5.json.gz",
+      "file": "Software_5.json.gz",
+      "sha256": "1495184a2d3a166516b1fbc5be57c5dbcc9fd44eb6be3df72a67aeb5546cd9ed"
+    }
+  ],
+  "note": "Lab4 contains only 120 titles per corpus. Research corpora supplement insufficient original exports; they are not claimed to be Lab4 scraper output.",
+  "counts": {
+    "news": 500,
+    "products": 234
+  },
+  "product_selection": "15..200 whitespace-delimited words in original description; first existing review with 10..80 words; one review per product; no truncation or generation; shuffled metadata seed=42. Selection favors concise reviews."
+}

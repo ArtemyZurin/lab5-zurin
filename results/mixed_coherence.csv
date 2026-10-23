@@ -1,0 +1,3 @@
+﻿method,k,coherence_cv,fit_seconds,convergence_warning
+lda,10,0.5011981949240812,2.583736200351268,False
+nmf,10,0.7056211851902024,0.13421149970963597,False

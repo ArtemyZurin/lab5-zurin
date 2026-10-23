@@ -1,0 +1,22 @@
+2026-10-23 14:50:04,329 Загрузка: https://mlg.ucd.ie/files/datasets/bbc-fulltext.zip
+2026-10-23 14:50:05,179 Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')': /files/datasets/bbc-fulltext.zip
+2026-10-23 14:50:07,805 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')': /files/datasets/bbc-fulltext.zip
+2026-10-23 14:50:12,591 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')': /files/datasets/bbc-fulltext.zip
+2026-10-23 14:50:21,506 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')': /files/datasets/bbc-fulltext.zip
+2026-10-23 14:50:22,236 Сбор не завершён: HTTPSConnectionPool(host='mlg.ucd.ie', port=443): Max retries exceeded with url: /files/datasets/bbc-fulltext.zip (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')))
+2026-10-23 14:54:33,125 Загрузка: http://mlg.ucd.ie/files/datasets/bbc-fulltext.zip
+2026-10-23 14:54:34,252 Загрузка: https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/metaFiles2/meta_Software.json.gz
+2026-10-23 14:54:54,444 Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='datarepo.eng.ucsd.edu', port=443): Read timed out. (read timeout=20)")': /mcauley_group/data/amazon_v2/metaFiles2/meta_Software.json.gz
+2026-10-23 14:55:16,700 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='datarepo.eng.ucsd.edu', port=443): Read timed out. (read timeout=20)")': /mcauley_group/data/amazon_v2/metaFiles2/meta_Software.json.gz
+2026-10-23 14:55:40,959 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='datarepo.eng.ucsd.edu', port=443): Read timed out. (read timeout=20)")': /mcauley_group/data/amazon_v2/metaFiles2/meta_Software.json.gz
+2026-10-23 14:56:09,202 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='datarepo.eng.ucsd.edu', port=443): Read timed out. (read timeout=20)")': /mcauley_group/data/amazon_v2/metaFiles2/meta_Software.json.gz
+2026-10-23 14:56:29,440 Сбор не завершён: HTTPSConnectionPool(host='datarepo.eng.ucsd.edu', port=443): Max retries exceeded with url: /mcauley_group/data/amazon_v2/metaFiles2/meta_Software.json.gz (Caused by ReadTimeoutError("HTTPSConnectionPool(host='datarepo.eng.ucsd.edu', port=443): Read timed out. (read timeout=20)"))
+2026-10-23 15:09:14,720 Кэш: bbc-fulltext.zip
+2026-10-23 15:09:14,740 Загрузка: https://mcauleylab.ucsd.edu/public_datasets/data/amazon_v2/metaFiles2/meta_Software.json.gz
+2026-10-23 15:09:18,791 Загрузка: https://mcauleylab.ucsd.edu/public_datasets/data/amazon_v2/categoryFilesSmall/Software_5.json.gz
+2026-10-23 15:09:20,957 Сохранено: новости=500, товары с описаниями и отзывами=500
+2026-10-23 15:09:29,699 NumExpr defaulting to 16 threads.
+2026-10-23 15:14:19,817 Кэш: bbc-fulltext.zip
+2026-10-23 15:14:19,820 Кэш: meta_Software.json.gz
+2026-10-23 15:14:19,832 Кэш: Software_5.json.gz
+2026-10-23 15:14:20,762 Сохранено: новости=500, товары с описаниями и отзывами=234

@@ -1,0 +1,514 @@
+[
+  {
+    "city": "Пермь",
+    "url": "https://permkuhnya.ru/экскурсии-2/",
+    "domain": "permkuhnya.ru",
+    "collected_at": "2026-10-23T10:12:43.532231+00:00",
+    "status": "ok",
+    "dishes": [
+      "кундюмы",
+      "пельмени",
+      "пистики",
+      "посику́нчики",
+      "строганина",
+      "холодец",
+      "шаньги"
+    ],
+    "text_sha256": "4613386d29b635561dcc68fddba35c89b285ce45c98d1c67f2ad3ee116f73433",
+    "extraction": "body_without_navigation",
+    "title": "Экскурсии и дегустации | Кафе «Пермская кухня»",
+    "characters": 2548,
+    "evidence": "икунчики, шанежка, бальзам из 27 видов трав, кундюмы запеченные с лесными грибами, рябиновый напиток туринув-ва, омид"
+  },
+  {
+    "city": "Пермь",
+    "url": "https://www.tutu.ru/geo/rossiya/perm_krai/article/vkusno_perm/",
+    "domain": "tutu.ru",
+    "collected_at": "2026-10-23T10:12:43.533231+00:00",
+    "status": "ok",
+    "dishes": [
+      "вареники",
+      "пельмени",
+      "пистики",
+      "посику́нчики",
+      "строганина",
+      "тартар",
+      "чак-чак",
+      "шаньги",
+      "щи"
+    ],
+    "text_sha256": "0c5cc4fbef477eefee475a000c691793f289b32babff94ef538403b99204f665",
+    "extraction": "body_without_navigation",
+    "title": "Где поесть и что привезти из Пермского края",
+    "characters": 5445,
+    "evidence": "ев, удмуртов. на одном столе легко уживаются вареники и пельмени, пистиковая каша и пло, шаньги и чак-чак. рассказывае"
+  },
+  {
+    "city": "Пермь",
+    "url": "https://provereno.tutu.ru/gastro-perm",
+    "domain": "provereno.tutu.ru",
+    "collected_at": "2026-10-23T10:12:43.533231+00:00",
+    "status": "ok",
+    "dishes": [
+      "бефстроганов",
+      "борщ",
+      "кундюмы",
+      "папоротник",
+      "пельмени",
+      "пистики",
+      "посику́нчики",
+      "роллы",
+      "солянка",
+      "суши",
+      "тартар",
+      "том-ям",
+      "уха",
+      "холодец",
+      "шаньги",
+      "щи"
+    ],
+    "text_sha256": "61db9ed81a156cad20173059a966f8ec55c5c78c206e2a5378b9cf0394a7c7df",
+    "extraction": "body_without_navigation",
+    "title": "Гастромаршрут Проверено Туту по Пермскому краю",
+    "characters": 44487,
+    "evidence": "ики с треской и крабом — с тушеным кабаном и бефстрогановом из оленины. пельмени делают рыбные, грибные, с олениной и"
+  },
+  {
+    "city": "Кунгур",
+    "url": "https://takara-kungur.ru/menu/",
+    "domain": "takara-kungur.ru",
+    "collected_at": "2026-10-23T10:12:43.563124+00:00",
+    "status": "ok",
+    "dishes": [
+      "оливье",
+      "поке",
+      "роллы",
+      "солянка",
+      "суши",
+      "шаверма"
+    ],
+    "text_sha256": "f87855e9843c49b6ab98b1360d26aa1f2d52de826432a0278e9c2dcfefd16c75",
+    "extraction": "article/main",
+    "title": "Меню — Суши-бар «Такара», г. Кунгур",
+    "characters": 30947,
+    "evidence": "сыр, масло оливковое 160 гр. 420 ₽ в корзину оливье картофель отварной, морковка отварная, огурец свежий, горошек зе"
+  },
+  {
+    "city": "Кунгур",
+    "url": "https://vkusimi.ru/",
+    "domain": "vkusimi.ru",
+    "collected_at": "2026-10-23T10:12:44.219951+00:00",
+    "status": "ok",
+    "dishes": [
+      "роллы"
+    ],
+    "text_sha256": "5accc017d3f05a7986bd851c97b510eaf8a48dff0e3f079c0781d774e6132a64",
+    "extraction": "article/main",
+    "title": "Аппетитная кухня ВкусиМи — Сочетание элементов различных кулинарных традиций. Наша кухня не относят к какой-то конкретной кухне, мы брали идеи разных традиций и народов.",
+    "characters": 844,
+    "evidence": "радиций и народов. салаты супы горячее пиццы роллы сеты десерты закуски показать еще галлерея ♡( ̄▽ ̄)♡ о нас связа"
+  },
+  {
+    "city": "Кунгур",
+    "url": "https://radiotochki.net/blog/tourism/kungur-za-1-den-chto-posmotret-samostoyatelno-gotovyy-marshrut-po-zhemchuzhine-urala.html",
+    "domain": "radiotochki.net",
+    "collected_at": "2026-10-23T10:12:44.239019+00:00",
+    "status": "ok",
+    "dishes": [
+      "посику́нчики"
+    ],
+    "text_sha256": "9596991fc2004a1ea8b93fa23ca7bc68141f8c7b26ee189be0ddf2a9b17275f0",
+    "extraction": "article/main",
+    "title": "Кунгур за 1 день: что посмотреть самостоятельно? Готовый маршрут по жемчужине Урала - Радиоточка Плюс Туристический Маршрут",
+    "characters": 11096,
+    "evidence": "меню, от европейской до русской кухни. кафе \"посикунчики\": обязательно попробуйте местный гастрономический специалитет –"
+  },
+  {
+    "city": "Москва",
+    "url": "https://russiacb.com/regions/moskva/food-moscow/",
+    "domain": "russiacb.com",
+    "collected_at": "2026-10-23T10:12:44.574123+00:00",
+    "status": "ok",
+    "dishes": [
+      "бефстроганов",
+      "блины",
+      "борщ",
+      "окрошка",
+      "оливье",
+      "пельмени",
+      "расстегай",
+      "солянка",
+      "уха",
+      "щи"
+    ],
+    "text_sha256": "c6a2245da60a5a8137fbe65267f91aef4f5d870249da26b14a28b304a9ae0f03",
+    "extraction": "article/main",
+    "title": "Гастрономическая карта региона Москва - Национальное конгресс-бюро",
+    "characters": 3647,
+    "evidence": "ы иностранными поварами, к ним можно отнести бефстроганов, салат «оливье» и винегрет. повседневный и праздничный стол моск"
+  },
+  {
+    "city": "Москва",
+    "url": "https://www.vedomosti.ru/gorod/ourcity/articles/menyalas-moskovskaya",
+    "domain": "vedomosti.ru",
+    "collected_at": "2026-10-23T10:12:44.634857+00:00",
+    "status": "ok",
+    "dishes": [
+      "калач",
+      "оливье",
+      "расстегай",
+      "суши",
+      "холодец",
+      "щи"
+    ],
+    "text_sha256": "f166f8bc29455b9d337c900f67969c32ab8d7c6533a9f006d4b2686d6b7fe4ee",
+    "extraction": "article/main",
+    "title": "Калач с «ручкой», оливье и высокая гастрономия: как менялась московская еда - Ведомости.Город",
+    "characters": 13287,
+    "evidence": "в горячем, привычка к еде «на ходу» (тот же калач с «ручкой» – буквально городской формат). в xxi в. это"
+  },
+  {
+    "city": "Москва",
+    "url": "https://moy-region.ru/guides/kuhnya-moskvy",
+    "domain": "moy-region.ru",
+    "collected_at": "2026-10-23T10:12:44.677550+00:00",
+    "status": "ok",
+    "dishes": [
+      "калач",
+      "кулебяка",
+      "оливье",
+      "птичье молоко",
+      "расстегай",
+      "солянка"
+    ],
+    "text_sha256": "e7773f9d07e24323e930c3fe8ac800a62c6b872efd4a5e5378e3a99833f34398",
+    "extraction": "article/main",
+    "title": "Кухня Москвы: калачи, кулебяка и торт «Птичье молоко»",
+    "characters": 7089,
+    "evidence": "мышленности xx века. ее узнаваемые символы — калач, кулебяка и расстегаи, солянка, салат оливье, торт «птичье молок"
+  },
+  {
+    "city": "Санкт-Петербург",
+    "url": "https://pyshki.spb.ru/",
+    "domain": "pyshki.spb.ru",
+    "collected_at": "2026-10-23T10:12:44.677550+00:00",
+    "status": "error",
+    "error": "На странице не найдены блюда из словаря"
+  },
+  {
+    "city": "Санкт-Петербург",
+    "url": "https://excursionspb.com/gde-poest-v-peterburge/",
+    "domain": "excursionspb.com",
+    "collected_at": "2026-10-23T10:12:44.723549+00:00",
+    "status": "ok",
+    "dishes": [
+      "бефстроганов",
+      "блины",
+      "корюшка",
+      "пышки",
+      "шаверма"
+    ],
+    "text_sha256": "e6e98ea76461f04e2040d78f43970df0e089bd28ca3c99a005cb377639a85f95",
+    "extraction": "article/main",
+    "title": "Что попробовать в Питере 2026: пышки, корюшка, шаверма",
+    "characters": 12645,
+    "evidence": "блюдо кафе с домашней кухней, подходят детям бефстроганов придумал граф александр строганов, живший в петербурге кафе и ре"
+  },
+  {
+    "city": "Санкт-Петербург",
+    "url": "https://www.metronews.ru/eda/reviews/gde-proest-koryushku-v-peterburge-v-2026-godu-2188267/",
+    "domain": "metronews.ru",
+    "collected_at": "2026-10-23T10:12:44.825730+00:00",
+    "status": "ok",
+    "dishes": [
+      "корюшка",
+      "пельмени",
+      "тартар",
+      "шаверма"
+    ],
+    "text_sha256": "70c6ab8a3fa133fa34449bb41f3e2a39dc9bc389c9e94a77f981f057e99d89e2",
+    "extraction": "article/main",
+    "title": "Где проесть корюшку в Петербурге в 2026 году Metro",
+    "characters": 2698,
+    "evidence": "года в меню были представлены такие блюда из корюшки, как корюшка по-ленинградски (от 850 руб.), корюшка со свежими о"
+  },
+  {
+    "city": "Казань",
+    "url": "https://visit-tatarstan.com/guides/gastronomicheskie-udovolstviya-v-tatarstane/",
+    "domain": "visit-tatarstan.com",
+    "collected_at": "2026-10-23T10:12:44.825730+00:00",
+    "status": "ok",
+    "dishes": [
+      "азу",
+      "бэлеш",
+      "губадия",
+      "казы",
+      "кулама",
+      "кыстыбый",
+      "манты",
+      "токмач",
+      "чак-чак",
+      "элеш",
+      "эчпочмак"
+    ],
+    "text_sha256": "4d2f2ba4aec2c947db9b2c122bed263dca1387decb705ce12ae5326b89589fbc",
+    "extraction": "article/main",
+    "title": "Гастрономические удовольствия в Татарстане",
+    "characters": 8068,
+    "evidence": "пшу на курином бульоне с добавлением зелени; азу – обжаренные кусочки мяса (как правило, говядины, конины или бар"
+  },
+  {
+    "city": "Казань",
+    "url": "https://tourism.tatarstan.ru/index.htm/news/2129203.htm",
+    "domain": "tourism.tatarstan.ru",
+    "collected_at": "2026-10-23T10:12:44.851664+00:00",
+    "status": "ok",
+    "dishes": [
+      "бэлеш",
+      "губадия",
+      "кыстыбый",
+      "чак-чак",
+      "эчпочмак"
+    ],
+    "text_sha256": "f103fc9b114e383cae5a052df9c0574b198f39ac43da24cc61743d0a2e445fa9",
+    "extraction": "body_without_navigation",
+    "title": "Государственный комитет Республики Татарстан по туризму",
+    "characters": 5263,
+    "evidence": "ляются всеми любимые эчпочмак, губадия и зур балеш. уникальным продуктом татарстана является вяленый гусь, которого"
+  },
+  {
+    "city": "Казань",
+    "url": "https://www.tatar-inform.ru/news/stalo-izvestno-kakie-sedobnye-suveniry-turisty-uvozyat-iz-kazani-6003331",
+    "domain": "tatar-inform.ru",
+    "collected_at": "2026-10-23T10:12:44.894514+00:00",
+    "status": "ok",
+    "dishes": [
+      "азу",
+      "чак-чак",
+      "элеш",
+      "эчпочмак"
+    ],
+    "text_sha256": "4e6ebab273ee8c32db914e04789b9a0fb7bba4c292956434cee4f9ba6ece8456",
+    "extraction": "article/main",
+    "title": "Национальные блюда Татарстана остаются главными гастросувенирами Казани",
+    "characters": 1313,
+    "evidence": "гостей также пользуется конина, суп-лапша и азу по-татарски. также гости охотно покупают в качестве сувениров ше"
+  },
+  {
+    "city": "Уфа",
+    "url": "https://travelvillage.ru/catalog/food/",
+    "domain": "travelvillage.ru",
+    "collected_at": "2026-10-23T10:12:44.936858+00:00",
+    "status": "ok",
+    "dishes": [
+      "бешбармак",
+      "кулама"
+    ],
+    "text_sha256": "d2e7b6b4fa7489adecb9e1351e4b74549857ee55ae2214f3f70c9079fc0f44fe",
+    "extraction": "body_without_navigation",
+    "title": "Национальная кухня | Terra Bashkiria",
+    "characters": 1146,
+    "evidence": "ациональные блюда башкирской кухни - куламу, бишбармак и корот трех-четырех видов. и запить все кумысом или айраном. те"
+  },
+  {
+    "city": "Уфа",
+    "url": "https://www.sobaka.ru/ufa/bars/chtogdeest/183019",
+    "domain": "sobaka.ru",
+    "collected_at": "2026-10-23T10:12:44.965342+00:00",
+    "status": "ok",
+    "dishes": [
+      "баурсак",
+      "бэлеш",
+      "казы",
+      "кыстыбый",
+      "манты",
+      "строганина",
+      "тартар",
+      "чак-чак",
+      "эчпочмак"
+    ],
+    "text_sha256": "b957f3a10093d1bde2639d432dad152d9ddbeeb5ebc84618882099f0135d78eb",
+    "extraction": "article/main",
+    "title": "Чак-Чак Норрис: где в Уфе пробовать блюда локальной кухни? | Sobaka.ru",
+    "characters": 3301,
+    "evidence": "м; на десерт — чизкейк из кызыл эремсека или баурсак novum taganok ул. цюрупы, 7 ресторан по мотивам рассказа народно"
+  },
+  {
+    "city": "Уфа",
+    "url": "https://www.russiadiscovery.ru/news/putevoditel_ufa/",
+    "domain": "russiadiscovery.ru",
+    "collected_at": "2026-10-23T10:12:45.018561+00:00",
+    "status": "ok",
+    "dishes": [
+      "бешбармак",
+      "казы",
+      "кыстыбый",
+      "манты",
+      "пельмени",
+      "пышки",
+      "шурпа"
+    ],
+    "text_sha256": "4b5c0e4e945c8d0e4e6cb04c144a969dd7b73e034af806b4cd85fdee94140316",
+    "extraction": "article/main",
+    "title": "Путеводитель по Уфе",
+    "characters": 28010,
+    "evidence": "сходить и где попробовать вкуснейшие манты и бишбармак. быстрая навигация где находится как добраться где погулять что"
+  },
+  {
+    "city": "Новосибирск",
+    "url": "https://moy-region.ru/guides/kuhnya-novosibirskoy-oblasti",
+    "domain": "moy-region.ru",
+    "collected_at": "2026-10-23T10:12:45.018561+00:00",
+    "status": "ok",
+    "dishes": [
+      "баурсак",
+      "бешбармак",
+      "борщ",
+      "вареники",
+      "манты",
+      "пельмени",
+      "строганина",
+      "уха",
+      "чак-чак",
+      "шаньги"
+    ],
+    "text_sha256": "147b62d62e8ad2264581b11152747d8a7007994f5f9b00ad95b2fc82ac8fa4f8",
+    "extraction": "article/main",
+    "title": "Кухня Новосибирской области: что попробовать и привезти",
+    "characters": 7445,
+    "evidence": "люда из баранины и теста — бешбармак, манты, баурсаки, чак-чак. национальные общины поддерживают свои кухни через дома"
+  },
+  {
+    "city": "Новосибирск",
+    "url": "https://russiacb.com/regions/novosibirsk/food-novosibirsk/",
+    "domain": "russiacb.com",
+    "collected_at": "2026-10-23T10:12:45.176018+00:00",
+    "status": "ok",
+    "dishes": [
+      "строганина",
+      "уха"
+    ],
+    "text_sha256": "edc50c7e2b81fa41c60de290cad9b2e64df62f0160bfaf22f0ef70798dec5454",
+    "extraction": "article/main",
+    "title": "Гастрономическая карта региона Новосибирская область - Национальное конгресс-бюро",
+    "characters": 1533,
+    "evidence": "«таежный» с брусникой и кедровыми орехами» «строганина из дикого пятнистого оленя» «губа лося в корне сельдерея» «грибн"
+  },
+  {
+    "city": "Новосибирск",
+    "url": "https://travel.yandex.ru/journal/kak-provesti-den-v-novosibirske/",
+    "domain": "travel.yandex.ru",
+    "collected_at": "2026-10-23T10:12:45.320856+00:00",
+    "status": "error",
+    "error": "На странице не найдены блюда из словаря"
+  },
+  {
+    "city": "Новосибирск",
+    "url": "https://openkitchen.eda.yandex/article/places/cities/gde-poprobovat-natsionalnuyu-kukhnyu-v-novosibirske",
+    "domain": "openkitchen.eda.yandex",
+    "collected_at": "2026-10-23T10:12:45.351184+00:00",
+    "status": "error",
+    "error": "На странице не найдены блюда из словаря"
+  },
+  {
+    "city": "Хабаровск",
+    "url": "https://zapovednye-mesta.rgo.ru/cuisine",
+    "domain": "zapovednye-mesta.rgo.ru",
+    "collected_at": "2026-10-23T10:12:45.356183+00:00",
+    "status": "ok",
+    "dishes": [
+      "блины",
+      "папоротник",
+      "пельмени",
+      "солянка",
+      "строганина",
+      "уха"
+    ],
+    "text_sha256": "35a41edbc4fffe9ba0528b0fd0eeb168f242d95a5c8c73172dbea3574fa23a38",
+    "extraction": "body_without_navigation",
+    "title": "Местная кухня",
+    "characters": 2291,
+    "evidence": "хуже, чем в ресторанах высокой кухни. пышные блинчики на завтрак, молотый кофе и разнообразные десерты на мгновение за"
+  },
+  {
+    "city": "Хабаровск",
+    "url": "https://nakhodka.media/news/1343925/",
+    "domain": "nakhodka.media",
+    "collected_at": "2026-10-23T10:12:45.396234+00:00",
+    "status": "ok",
+    "dishes": [
+      "папоротник",
+      "пельмени",
+      "роллы",
+      "строганина",
+      "суши",
+      "том-ям",
+      "уха",
+      "эчпочмак"
+    ],
+    "text_sha256": "46e97aa7ff8eea3bec0fa4a7655ff2ee495ce28f1fa2d587dbc076a0f9117b25",
+    "extraction": "body_without_navigation",
+    "title": "Готовьте \"вкусовые сосочки\": чем Хабаровский край удивит гурманов - Nakhodka.Media",
+    "characters": 11568,
+    "evidence": "торанах в сезон несложно заказать картошку с папоротником или коктейль на клюкве. но местная \"доступная рыба\" обойдется ес"
+  },
+  {
+    "city": "Хабаровск",
+    "url": "https://khabarovsktv.ru/news/v-habarovskom-krae-vpervye-proveli-gastrouzhin-posredi-taygi",
+    "domain": "khabarovsktv.ru",
+    "collected_at": "2026-10-23T10:12:45.412238+00:00",
+    "status": "ok",
+    "dishes": [
+      "гравлакс",
+      "севиче",
+      "тартар"
+    ],
+    "text_sha256": "83fe0ae100f1cb2692a25c056ed0cab6a972dc545f997d60040497d842199931",
+    "extraction": "body_without_navigation",
+    "title": "В Хабаровском крае впервые провели гастроужин посреди тайги | Телеканал \"ХАБАРОВСК\"",
+    "characters": 1846,
+    "evidence": "ия», и его планируют сделать ежегодным. сима-гравлакс, севиче из гребешка, тартар из симы и сазана с горчичным кремом"
+  },
+  {
+    "city": "Петрозаводск",
+    "url": "https://poehalitur.ru/sovety/chto-poprobovat-kareliya",
+    "domain": "poehalitur.ru",
+    "collected_at": "2026-10-23T10:12:45.424074+00:00",
+    "status": "ok",
+    "dishes": [
+      "калитки",
+      "ряпушка",
+      "уха"
+    ],
+    "text_sha256": "51b842a124628186ab2d8896c054101b52e8576afca15dbe70b6a781e967860c",
+    "extraction": "article/main",
+    "title": "Что попробовать в Карелии: карельская кухня в Петрозаводске — Поехали",
+    "characters": 15589,
+    "evidence": "робовать в карелии из еды: карельская кухня, калитки и рыба ладоги и онеги 🏖️ на месте что попробовать в карелии"
+  },
+  {
+    "city": "Петрозаводск",
+    "url": "https://vezet.ru/blog/chto-posmotret-i-gde-poest-v-petrozavodske",
+    "domain": "vezet.ru",
+    "collected_at": "2026-10-23T10:12:45.482759+00:00",
+    "status": "ok",
+    "dishes": [
+      "калитки",
+      "лохикейтто",
+      "ряпушка"
+    ],
+    "text_sha256": "f2c7db9e433892989198b65748d6509ccb72ddd84b7b3f0dfbba63a13de16e90",
+    "extraction": "body_without_navigation",
+    "title": "Автопрогулка, набережная, карельские специалитеты: что посмотреть и где поесть в Петрозаводске",
+    "characters": 7321,
+    "evidence": "юда, которые стоит попробовать. и здесь это: калитки — это открытые пирожки из ржаного теста. они бывают с картошкой,"
+  },
+  {
+    "city": "Петрозаводск",
+    "url": "https://openkitchen.eda.yandex/article/places/cities/luchshie-restorany-i-kafe-petrozavodska-s-karelskoy-kuhney-i-ne-tolko",
+    "domain": "openkitchen.eda.yandex",
+    "collected_at": "2026-10-23T10:12:45.535095+00:00",
+    "status": "error",
+    "error": "На странице не найдены блюда из словаря"
+  }
+]
